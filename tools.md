@@ -6,7 +6,7 @@ date: 2011/11/19 20:49 CET
 
 # Tolle Tools #
 
-- ruby - des Programmierers bester Freund
+- [Ruby](http://www.ruby-lang.org/de/) - des Programmierers bester Freund
 - Markdown - wozu (Libre/Open/MS)-Office-Dokumente, wenn es auch einfacher geht?
 - pandoc - ein Markdown-in-Alles-Konvertierer (HTML, ePub, LaTeX, PDF, ...)
 - jekyll - erzeugt Webseiten aus HTML- oder Markdown-Inhalt und Vorlagen

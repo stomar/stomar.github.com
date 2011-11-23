@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE Orgeldatenbank SYSTEM "orgeldb.dtd">
+<?xml-stylesheet type="text/xsl" href="orgeldb.xsl" ?>
+
+<Orgeldatenbank>
+
+<Orgel id="org_id001">
+<Standort>
+  <Name>Stiftskirche</Name>
+  <Ort>Herrenberg</Ort>
+</Standort>
+<Orgelbauer sortkey="rensch_herrenberg">
+  <Name>Orgelbau Rensch</Name>
+  <Ort>Lauffen/Neckar</Ort>
+  <opus>137</opus>
+</Orgelbauer>
+<Jahr>1985</Jahr>
+<Klaviatur order="1">
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg><Name>Bourdon</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Principal</Name><Lage>8</Lage>
+       <Bemerkung>teilweise Prospekt</Bemerkung></Reg>
+  <Reg><Name>Holzflöte</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Octave</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Quinte</Name><Lage>2 2/3</Lage></Reg>
+  <Reg><Name>Octave</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Mixtur</Name><Choere>5</Choere><Lage>2</Lage>
+      <label>Mixtur V</label></Reg>
+  <Reg><Name>Zimbel</Name><Choere>3</Choere><Lage>1/2</Lage>
+      <label>Zimbel III</label></Reg>
+  <Reg><Name>Kornett</Name><Choere>5</Choere><Lage>8</Lage>
+      <label>Kornett V</label><Bemerkung>ab f0</Bemerkung></Reg>
+  <Reg><Name>Trompete</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Klaviatur order="2">
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg><Name>Salicional</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Schwebung</Name><Lage>8</Lage>
+       <Bemerkung>ab c0</Bemerkung></Reg>
+  <Reg><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Geigenprincipal</Name><Lage>8</Lage>
+       <Bemerkung>teilweise Prospekt</Bemerkung></Reg>
+  <Reg><Name>Flauto dolce</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Fugara</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Waldflöte</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Scharf</Name><Choere>4-6</Choere><Lage>1 1/3</Lage>
+      <label>Scharf IV-VI</label></Reg>
+  <Reg><Name>Klarinette</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Klaviatur order="3">
+  <Name>Rückpositiv</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg><Name>Rohrgedeckt</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Principal</Name><Lage>4</Lage>
+       <Bemerkung>Prospekt, vor Schweller</Bemerkung></Reg>
+  <Reg><Name>Kleingedeckt</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Sesquialter</Name><Choere>2</Choere>
+      <label>Sesquialter II</label></Reg>
+  <Reg><Name>Octave</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Quinte</Name><Lage>1 1/3</Lage></Reg>
+  <Reg><Name>Scharfzimbel</Name><Choere>4</Choere><Lage>1</Lage>
+      <label>Scharfzimbel IV</label></Reg>
+  <Reg><Name>Basson-Hautbois</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Tremulant</Name></Reg>
+</Klaviatur>
+<Klaviatur order="P">
+  <Name>Pedal</Name>
+  <Umfang>C-f'</Umfang>
+  <Reg><Name>Principalbaß</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Subbaß</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Octavbaß</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Spitzflöte</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Choralbaß</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Posaune</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Trompete</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Clarine</Name><Lage>4</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, III/I, III/II, I/P, II/P, III/P</Koppeln>
+<Bemerkung>Zimbelstern</Bemerkung>
+<Bemerkung>Schweller Rückpositiv</Bemerkung>
+<Bemerkung>
+Schleifladen, mechanische Spieltraktur, elektrische Registertraktur.
+</Bemerkung>
+<Bemerkung>
+Elektronische Setzerkombination mit 128 frei
+einstellbaren Setzern, Schrittschalter vorwärts und rückwärts,
+Absteller.
+</Bemerkung>
+<Bemerkung>
+Erbaut unter Verwendung des Prospekts und des Pfeifenmaterials der
+Walcker-Orgel von 1890. Rückpositiv neu.
+</Bemerkung>
+<Bemerkung>
+1961 - Umbau der damaligen Orgel durch Firma Rensch, op. 22 (Größe: II/25)
+</Bemerkung>
+<Bemerkung><A href="../Disposition_Hbg.pdf">Druckversion (PDF, 31KB)</A></Bemerkung>
+<Quelle>ms, Prospekt der Ki.Gem., Online-Werkverzeichnis Rensch</Quelle>
+</Orgel>
+
+
+<Orgel id="org_id002">
+<Standort>
+  <Name>Stephanuskirche</Name>
+  <Ort>Kuppingen</Ort>
+</Standort>
+<Orgelbauer sortkey="degraaf">
+  <Name>De Graaf / Rensch</Name>
+</Orgelbauer>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="9"><Name>Pommer</Name><Lage>16</Lage></Reg>
+  <Reg order="8"><Name>Prinzipal</Name><Lage>8</Lage></Reg>
+  <Reg order="10"><Name>Holzflöte</Name><Lage>8</Lage></Reg>
+  <Reg order="7"><Name>Oktave</Name><Lage>4</Lage></Reg>
+  <Reg order="11"><Name>Flötgedeckt</Name><Lage>4</Lage></Reg>
+  <Reg order="12"><Name>Waldflöte</Name><Lage>2</Lage></Reg>
+  <Reg order="6"><Name>Mixtur</Name><Choere>4</Choere><Lage>1 1/3</Lage>
+      <label>Mixtur 4f.</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="17"><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg order="18"><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="16"><Name>Prinzipal</Name><Lage>2</Lage></Reg>
+  <Reg order="20"><Name>Sesquialter</Name><Choere>2</Choere>
+      <label>Sesquialter 2f.</label></Reg>
+  <Reg order="19"><Name>Quinte</Name><Lage>1 1/3</Lage></Reg>
+  <Reg order="15"><Name>Zimbel</Name><Choere>3</Choere><Lage>1/2</Lage>
+      <label>Zimbel 3f.</label></Reg>
+  <Reg order="14"><Name>Trompetenregal</Name><Lage>8</Lage>
+      <label>Tromp.regal</label></Reg>
+  <Reg order="13"><Name>Tremulant</Name></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>  <!-- parallel, dopp. geschw. -->
+  <Umfang>C-f'</Umfang>
+  <Reg order=""><Name>Subbass</Name><Lage>16</Lage></Reg>
+  <Reg order=""><Name>Oktavbass</Name><Lage>8</Lage></Reg>
+  <Reg order=""><Name>Rohrpommer</Name><Lage>4</Lage>
+      <label>R. Pommer</label></Reg>
+  <Reg order=""><Name>Hintersatz</Name><Choere>3</Choere><Lage>2 2/3</Lage>
+      <label>Hintersatz 3f.</label></Reg>
+  <Reg order=""><Name>Fagott</Name><Lage>16</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>  <!-- Label: II/Ped, I/Ped, [Schw.tritt], II/I,
+                                         Fusstritte -->
+<Bemerkung>Schweller Brustwerk</Bemerkung>  <!-- Fluegeltueren -->
+<Revision date="2004/12/24" by="ms">neu erfasst</Revision>
+<!--
+vertikal L:1-5/6-12 R:13-20
+-->
+</Orgel>
+
+
+<Orgel id="org_id003">
+<Standort>
+  <Name>Stephanskirche</Name>
+  <Ort>Nebringen</Ort>
+</Standort>
+<Orgelbauer sortkey="walcker">
+  <Name>E. F. Walcker &amp; Cie.</Name>
+  <Ort>Ludwigsburg - Württemberg</Ort>
+  <opus>446</opus>
+</Orgelbauer>
+<Jahr>1885</Jahr>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-f'''</Umfang>
+  <Reg><Name>Bourdon</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Prinzipal</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Floete</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Viola di Gamba</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Oktav</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Mixtur</Name><Choere>3</Choere><Lage>2 2/3</Lage>
+      <label>Mixtur 3fach</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-f'''</Umfang>
+  <Reg><Name>Lieblich Gedeckt</Name><Lage>8</Lage>
+      <label>Liebl. Gedeckt</label></Reg>
+  <Reg><Name>Salicional</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Floete</Name><Lage>4</Lage></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>
+  <Umfang>C-d'</Umfang>
+  <Reg><Name>Subbass</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Violon</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, Tutti</Koppeln>
+<Bemerkung>mechanische Kegellade</Bemerkung>
+<Bemerkung>Spieltisch freistehend</Bemerkung>
+<Bemerkung>1979 - Restaurierung durch Firma Rensch, op. 115</Bemerkung>
+<Quelle>ms, Online-Werkverzeichnis Rensch</Quelle>
+</Orgel>
+
+
+<Orgel id="org_id004">
+<Standort>
+  <Name>Spitalkirche</Name>
+  <Ort>Herrenberg</Ort>
+</Standort>
+<Orgelbauer sortkey="plum_herrenberg">
+  <Name>Orgelbau Plum</Name>
+</Orgelbauer>
+<Jahr></Jahr>
+<Klaviatur>
+  <Name>Manual 1/2</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="4"><Name>Metallflöte</Name><Lage>8</Lage></Reg>
+  <Reg order="5"><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg order="6"><Name>Oktave</Name><Lage>4</Lage></Reg>
+  <Reg order="7"><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="8"><Name>Prinzipal</Name><Lage>2</Lage></Reg>
+  <Reg order="9"><Name>Waldflöte</Name><Lage>2</Lage></Reg>
+  <Reg order="10"><Name>Quinte</Name><Lage>1 1/3</Lage></Reg>
+  <Reg order="11"><Name>Sesquialter</Name><Choere>2</Choere>
+      <label>Sesquialter 2 2/3' + 1 3/5'</label></Reg>
+  <Reg order="12"><Name>Mixtur</Name><Choere>4</Choere><Lage>1</Lage>
+      <label>Mixtur 4f.</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>  <!-- radial, dopp. geschw. -->
+  <Umfang>C-f'</Umfang>
+  <Reg order="1"><Name>Subbaß</Name><Lage>16</Lage></Reg>
+  <Reg order="2"><Name>Flöte</Name><Lage>8</Lage></Reg>
+  <Reg order="3"><Name>Trompetenbaß</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln> <!-- Label:  II-I, II-Ped., I-Ped.,
+                                                Fusshebel -->
+<Bemerkung>Wechselschleife</Bemerkung>
+<Revision date="2004/11/18" by="ms">neu erfasst</Revision>
+</Orgel>
+
+
+<Orgel id="org_id005">   <!-- Reg order richtig? -->
+<Standort>
+  <Name>Jakobuskirche</Name>
+  <Ort>Haslach</Ort>
+</Standort>
+<Orgelbauer sortkey="rensch_haslach">
+  <Name>Orgelbau Rensch</Name>
+  <Ort>Lauffen/Neckar</Ort>
+  <opus>52</opus>
+</Orgelbauer>
+<Jahr>1967</Jahr>
+<Klaviatur order="1">
+  <Name>Hauptwerk</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="3"><Name>Flöte</Name><Lage>8</Lage></Reg>
+  <Reg order="2"><Name>Prinzipal</Name><Lage>4</Lage></Reg>
+  <Reg order="4"><Name>Sesquialter</Name><Choere>2</Choere>
+      <label>Sesquialter 2f.</label></Reg>
+  <Reg order="1"><Name>Mixtur</Name><Choere>4</Choere><Lage>1 1/3</Lage>
+      <label>Mixtur 4f.</label></Reg>
+</Klaviatur>
+<Klaviatur order="2">
+  <Name>Brustwerk</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="8"><Name>Singend Gedeckt</Name><Lage>8</Lage>
+      <label>Sing. Ged.</label></Reg>
+  <Reg order="9"><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="7"><Name>Prinzipal</Name><Lage>2</Lage></Reg>
+  <Reg order="10"><Name>Quinte</Name><Lage>1 1/3</Lage></Reg>
+  <Reg order="6"><Name>Scharfzimbel</Name><Choere>3</Choere><Lage>2/3</Lage>
+      <label>Scharfzimb. 3f.</label></Reg>
+  <Reg order="5"><Name>Tremulant</Name>
+      <label>Tremulant BW</label></Reg>
+</Klaviatur>
+<Klaviatur order="P">
+  <Name>Pedal</Name>  <!-- radial dopp. geschw. -->
+  <Umfang>C-f'</Umfang>
+  <Reg order="12"><Name>Subbass</Name><Lage>16</Lage></Reg>
+  <Reg order="13"><Name>Flötbass</Name><Lage>8</Lage></Reg>
+  <Reg order="11"><Name>Choralbass</Name><Choere>3</Choere><Lage>4</Lage>
+      <label>Choralbass 3f.</label></Reg> <!-- 4 + 2 + 1 1/3 -->
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>  <!-- Label: II/I, II/Ped., I/Ped., 
+                                         Fusstritte -->
+<Bemerkung>Schweller Brustwerk</Bemerkung>
+<Quelle>ms, Online-Werkverzeichnis Rensch</Quelle>
+<Revision date="2005/01/06" by="ms">neu erfasst</Revision>
+<!--
+vertikal L:1-5/6-10 R:11-13
+-->
+</Orgel>
+
+
+<Orgel id="org_id006">
+<Standort>
+  <Name>Martinskirche</Name>
+  <Ort>Oberjettingen</Ort>
+</Standort>
+<Orgelbauer sortkey="oesterle_oberjettingen">
+  <Name>Kurt Oesterle</Name>
+  <Ort>Reichenbach/Fils</Ort>
+  <opus>56</opus>
+</Orgelbauer>
+<Jahr>1972</Jahr>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="6"><Name>Prinzipal</Name><Lage>8</Lage></Reg>
+  <Reg order="7"><Name>Rohrflöte</Name><Lage>8</Lage></Reg>
+  <Reg order="8"><Name>Oktave</Name><Lage>4</Lage></Reg>
+  <Reg order="9"><Name>Sesquialter</Name><Choere>2</Choere>
+      <label>Sesquialter 2-fach</label></Reg>
+  <Reg order="10"><Name>Blockflöte</Name><Lage>2</Lage></Reg>
+  <Reg order="11"><Name>Mixtur</Name><Choere>3-4</Choere>
+      <label>Mixtur 3-4 fach</label></Reg>
+  <Reg order="0"><Name>Krummhorn</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Tremulant</Name><Bemerkung>Fußtritt</Bemerkung></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="1"><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg order="2"><Name>Hohlflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="3"><Name>Prinzipal</Name><Lage>2</Lage></Reg>
+  <Reg order="4"><Name>Quinte</Name><Lage>1 1/3</Lage></Reg>
+  <Reg order="5"><Name>Scharfzimbel</Name><Choere>3</Choere>
+      <label>Scharfzimbel 3-fach</label></Reg>
+  <Reg><Name>Tremulant</Name><Bemerkung>Fußtritt</Bemerkung></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>
+  <Umfang>C-f'</Umfang>
+  <Reg order="12"><Name>Subbaß</Name><Lage>16</Lage></Reg>
+  <Reg order="13"><Name>Oktavbaß</Name><Lage>8</Lage></Reg>
+  <Reg order="14"><Name>Choralbaß</Name><Lage>4</Lage></Reg>
+  <Reg order="15"><Name>Trompete</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>  <!-- Label: II-P, I-P, II-I, Fusstritte -->
+<Bemerkung>Schweller II. Manual</Bemerkung>
+<Revision date="2004/11/07" by="ms">neu erfasst</Revision>
+</Orgel>
+
+
+<Orgel id="org_id007">
+<Standort>
+  <Name>Mutterhauskirche</Name>
+  <Ort>Herrenberg</Ort>
+</Standort>
+<Orgelbauer sortkey="oesterle_herrenberg">
+  <Name>Kurt Oesterle Orgelbau</Name>
+  <Ort>Reichenbach/Fils</Ort>
+  <opus>26</opus>
+</Orgelbauer>
+<Jahr>1967</Jahr>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="1"><Name>Offenflöte</Name><Lage>8</Lage></Reg>
+  <Reg order="2"><Name>Prinzipal</Name><Lage>4</Lage></Reg>
+  <Reg order="3"><Name>Quinte</Name><Lage>2 2/3</Lage></Reg>
+  <Reg order="4"><Name>Waldflöte</Name><Lage>2</Lage></Reg>
+  <Reg order="5"><Name>Terz</Name><Lage>1 3/5</Lage></Reg>
+  <Reg order="6"><Name>Mixtur</Name><Choere>4</Choere>
+      <label>Mixtur 4fach</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="12"><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg order="14"><Name>Salizional</Name><Lage>8</Lage></Reg>
+  <Reg order="13"><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="15"><Name>Prinzipal</Name><Lage>2</Lage></Reg>
+  <Reg order="17"><Name>Sifflöte</Name><Lage>1 1/3</Lage></Reg>
+  <Reg order="16"><Name>Schalmey</Name><Lage>8</Lage></Reg>
+  <Reg order="11"><Name>Tremulant</Name></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>
+  <Umfang>C-f'</Umfang>
+  <Reg order="10"><Name>Subbaß</Name><Lage>16</Lage></Reg>
+  <Reg order="9"><Name>Gemshorn</Name><Lage>8</Lage></Reg>
+  <Reg order="8"><Name>Dolkan</Name><Lage>4</Lage></Reg>
+  <Reg order="7"><Name>Fagott</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>
+</Orgel>
+
+
+<Orgel id="org_id008">
+<Standort>
+  <Name>Evang. Kirche</Name>
+  <Ort>Tailfingen</Ort>
+</Standort>
+<Orgelbauer sortkey="mühleisen">
+  <Name>Werkstätte für Orgelbau Mühleisen</Name>
+  <Ort>Leonberg</Ort>
+</Orgelbauer>
+<Jahr>1997</Jahr>
+<Klaviatur>
+  <Name>Manual I/II</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="8"><Name>Bourdon</Name><Lage>16</Lage></Reg>
+  <Reg order="9"><Name>Principal</Name><Lage>8</Lage></Reg>
+  <Reg order="1"><Name>Großgedackt</Name><Lage>8</Lage></Reg>
+  <Reg order="4"><Name>Salicional</Name><Lage>8</Lage></Reg>
+  <Reg order="10"><Name>Octave</Name><Lage>4</Lage></Reg>
+  <Reg order="2"><Name>Holzflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="3"><Name>Spitzflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="5"><Name>Quinte</Name><Lage>2 2/3</Lage>
+      <label>Quinte 3'</label></Reg>
+  <Reg order="11"><Name>Octave</Name><Lage>2</Lage></Reg>
+  <Reg order="6"><Name>Mixtur</Name><Lage>2</Lage></Reg>
+  <Reg order="7"><Name>Cymbel</Name><Lage>2</Lage></Reg>
+  <Reg order="12"><Name>Tremulant</Name></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>  <!-- parallel, dopp. geschw. -->
+  <Umfang>C-d'</Umfang>
+  <Reg order="15"><Name>Subbaß</Name><Lage>16</Lage></Reg>
+  <Reg order="14"><Name>Octavbaß</Name><Lage>8</Lage></Reg>
+  <Reg order="13"><Name>Posaune</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln> <!-- Label: I/Pedal, II/Pedal, II/I
+                                        wechselseitige Ausloesung (Fusstritte, Zuege) -->
+<Bemerkung>Pleno</Bemerkung>       <!-- 6, 9-11, 14, 15, 17 -->
+<Bemerkung>Wechselschleife</Bemerkung>
+<Revision date="2004/12/19" by="ms">neu erfasst</Revision>
+<!--
+L:1-4/5-7/8-11 R:12,Vac,Licht,Motor/13-15/16-19
+
+16: Pleno  17: Coppel I/P  18: Coppel II/P  19: Coppel II/I
+-->
+</Orgel>
+
+
+<Orgel id="org_id009">   <!-- 2 Manuale, 11 Register -->
+<Standort>
+  <Name>Heilig-Kreuz-Kirche</Name>
+  <Ort>Reusten</Ort>
+</Standort>
+<Orgelbauer sortkey="vier">
+  <Name>Martin Vier, Werkstätte für Orgelbau</Name>
+  <Ort>Friesenheim</Ort>
+</Orgelbauer>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg><Name>Flöte</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Prinzipal</Name><Lage>4</Lage></Reg>
+  <Reg Vorabzug="Sesq"><Name>Quinte</Name><Lage>2 2/3</Lage></Reg>
+  <Reg id="Sesq"><Name>Sesquialter</Name><Choere>2</Choere>
+      <label>Sesquialter 1-2f.</label></Reg>
+  <Reg Vorabzug="Mix"><Name>Oktave</Name><Lage>2</Lage></Reg>
+  <Reg id="Mix"><Name>Mixtur</Name><Choere>3</Choere>
+      <label>Mixtur 3fach</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg><Name>Gedackt</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Gemshorn</Name><Lage>2</Lage></Reg>
+  <Reg Vorabzug="Lrg"><Name>Quinte</Name><Lage>1 1/3</Lage></Reg>
+  <Reg id="Lrg"><Name>Larigot</Name><Choere>2</Choere><Lage>1 1/3 + 1</Lage>
+      <label>Larigot 1 1/3' + 1'</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>  <!-- radial, dopp. geschw. -->
+  <Umfang>C-f'</Umfang>
+  <Reg><Name></Name><Lage>16</Lage>
+      <label>16'</label></Reg>
+  <Reg><Name></Name><Lage>8</Lage>
+      <label>8'</label></Reg>
+  <Reg><Name></Name><Lage>4</Lage>
+      <label>4'</label></Reg>
+  <Bemerkung>Fußtritte</Bemerkung>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln> <!-- Label: I-P, II-P, II-I, Fusstritte -->
+<Bemerkung>Schleiflade, mechanische Traktur</Bemerkung>
+<Revision date="2004/11/21" by="ms">neu erfasst</Revision>
+</Orgel>
+
+
+<Orgel id="org_id010">
+<Standort>
+  <Name>Evang. Kirche</Name>
+  <Ort>Altingen</Ort>
+</Standort>
+<Orgelbauer sortkey="weigle_altingen">
+  <Name>Friedrich Weigle Orgelbau</Name>
+  <Ort>Echterdingen</Ort>
+  <opus>1123</opus>
+</Orgelbauer>
+<Jahr>1964</Jahr>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="3"><Name>Flöte</Name><Lage>8</Lage></Reg>
+  <Reg order="4"><Name>Singend Prinzipal</Name><Lage>4</Lage>
+      <label>Sing. Prinzipal</label></Reg>
+  <Reg order="5"><Name>Waldflöte</Name><Lage>2</Lage></Reg>
+  <Reg order="1"><Name>Sesquialter</Name><Choere>2</Choere>
+      <label>Sesquialter 2 f. 2 2/3' + 1 3/5'</label></Reg>
+  <Reg order="2"><Name>Mixtur</Name><Choere>4</Choere><Lage>1/3</Lage>
+      <label>Mixtur 4 f. 1/3'</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="13"><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg order="12"><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="11"><Name>Prinzipal</Name><Lage>2</Lage></Reg>
+  <Reg order="10"><Name>Spitzquinte</Name><Lage>1 1/3</Lage></Reg>
+  <Reg order="9"><Name>Zimbel</Name><Choere>3</Choere><Lage>1/2</Lage>
+      <label>Zimbel 3 f. 1/2'</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>  <!-- dopp. geschw., parallel -->
+  <Umfang>C-f'</Umfang>
+  <Reg order="6"><Name>Subbass</Name><Lage>16</Lage></Reg>
+  <Reg order="7"><Name>Flötbass</Name><Lage>8</Lage></Reg>
+  <Reg order="8"><Name>Pommer</Name><Lage>4</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>  <!-- Label: I/P, II/P, II/I, Fusstritte -->
+<Revision date="2004/11/21" by="ms">neu erfasst</Revision>
+</Orgel>
+
+
+<Orgel id="org_id011">
+<Standort>
+  <Name>Peterskirche</Name>
+  <Ort>Gültstein</Ort>
+</Standort>
+<Orgelbauer sortkey="weinmar">
+  <Name>Johann Jakob Weinmar</Name>
+  <Ort>Bondorf</Ort>
+  <!-- auf Gehäuse: Friedrich Weigle Orgelbau, Echterdingen bei Stuttgart,
+                    1940 Opus 796 -->
+</Orgelbauer>
+<Jahr>1786</Jahr>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-f'''</Umfang>
+  <Reg><Name>Bourdon</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Principal</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Salicional</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Oktave</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Gedecktflöte</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Quinte</Name><Lage>2 2/3</Lage></Reg>
+  <Reg><Name>Oktave</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Mixtur</Name></Reg>
+  <Reg><Name>Oktavzymbel</Name><Choere>3</Choere>
+      <label>Oktavzymbel 3fach</label></Reg>
+  <Reg><Name>Cornett</Name><Choere>3</Choere>
+      <label>Cornett 3fach</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-f'''</Umfang>
+  <Reg><Name>Rohrgedeckt</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Rohrschalmey</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Principal</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Spitzflöte</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Schwiegel</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Scharff</Name><Choere>3</Choere>
+      <label>Scharff 3f.</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>
+  <Umfang>C-f'</Umfang>
+  <Reg><Name>Subbass</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Oktavbass</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Trompete</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>
+<Bemerkung>Zimbelstern</Bemerkung>
+<Bemerkung>
+2004 - Sanierung/Umbau durch Firma Scharfe, Ebersbach an der Fils
+(Choralbass 4' im Pedal ersetzt durch Trompete 8', Zimbelstern neu)
+</Bemerkung>
+<Bemerkung>
+1982 - Restaurierung durch Firma Rensch, op. 125
+</Bemerkung>
+<Bemerkung>
+1940 - Umbau? durch Firma Weigle, Echterdingen, op. 796
+</Bemerkung>
+<Quelle>ms, Online-Werkverzeichnis Rensch, Gäubote vom 23. und 28.06.2004</Quelle>
+<!-- I gekoppelt an II ab cis''' -->
+<!-- Manualumfaenge richtig?     -->
+<Revision date="2004/07/11" by="ms">neu erfasst</Revision>
+</Orgel>
+
+
+<Orgel id="org_id012">
+<Standort>
+  <Name>Michaelskirche</Name>
+  <Ort>Unterjettingen</Ort>
+</Standort>
+<Orgelbauer sortkey="plum_unterjettingen">
+  <Name>Orgelbau Plum</Name>
+  <Ort>Marbach/Neckar</Ort>
+</Orgelbauer>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg><Name>Prinzipal</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Gemshorn</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Oktave</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Gedecktflöte</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Nasat</Name><Lage>2 2/3</Lage></Reg>
+  <Reg><Name>Waldflöte</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Mixtur</Name><Choere>4</Choere><Lage>1 1/3</Lage>
+      <label>Mixtur 4f.</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Flöte</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Prinzipal</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Terzian</Name><Choere>2</Choere>
+      <label>Terzian 2f.</label></Reg>
+  <Reg><Name>Scharfzimbel</Name><Choere>3</Choere><Lage>1/2</Lage>
+      <label>Scharfzimbel 3f.</label></Reg>
+  <Reg><Name>Tremulant</Name></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>
+  <Umfang>C-f'</Umfang>
+  <Reg><Name>Subbaß</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Oktavbaß</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Choralbaß</Name><Choere>2</Choere><Lage>4 + 2</Lage>
+      <label>Choralbaß 4' + 2'</label></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>
+</Orgel>
+
+
+<Orgel id="org_id013">
+<Standort>
+  <Name>Mauritiuskirche</Name>
+  <Ort>Mötzingen</Ort>
+</Standort>
+<Orgelbauer sortkey="weigle_mötzingen">
+  <Name>Friedrich Weigle Orgelbau</Name>
+  <Ort>Echterdingen</Ort>
+  <opus>1045</opus>
+</Orgelbauer>
+<Jahr>1960</Jahr>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="3"><Name>Flötenprinzipal</Name><Lage>8</Lage></Reg>
+  <Reg order="4"><Name>Oktave</Name><Lage>4</Lage></Reg>
+  <Reg order="5"><Name>Nachthorn</Name><Lage>4</Lage></Reg>
+  <Reg order="6"><Name>Blockflöte</Name><Lage>2</Lage></Reg>
+  <Reg order="1"><Name>Sesquialter</Name><Choere>2</Choere>
+      <label>Sesquialter 2 f.</label></Reg>
+  <Reg order="2"><Name>Mixtur</Name><Choere>4</Choere><Lage>1 1/3</Lage>
+      <label>Mixtur 4 f. 1 1/3'</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="15"><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg order="14"><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="13"><Name>Prinzipal</Name><Lage>2</Lage></Reg>
+  <Reg order="12"><Name>Spitzquinte</Name><Lage>1 1/3</Lage></Reg>
+  <Reg order="11"><Name>Scharfzimbel</Name><Choere>3</Choere><Lage>1/2</Lage>
+      <label>Scharfzimbel 3 f. 1/2'</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>  <!-- dopp. geschw., parallel -->
+  <Umfang>C-f'</Umfang>
+  <Reg order="7"><Name>Subbass</Name><Lage>16</Lage></Reg>
+  <Reg order="8"><Name>Oktavbass</Name><Lage>8</Lage></Reg>
+  <Reg order="9"><Name>Pommer</Name><Lage>4</Lage></Reg>
+  <Reg order="10"><Name>Hintersatz</Name><Choere>3</Choere><Lage>4</Lage>
+      <label>Hintersatz 3 f. 4'</label></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>  <!-- label: I/P, II/P, II/I, Fusstritte -->
+<Revision date="2004/12/07" by="ms">neu erfasst</Revision>
+<!--
+     1  2
+ 3  4  5  6   Man   11 12 13
+7  8  9  10           14 15
+
+L:1,2/3,4,5,6/7,8,9,10 R:-/11,12,13/14,15
+-->
+</Orgel>
+
+
+<Orgel id="org_id014">
+<Standort>
+  <Name>Michaelskirche</Name>
+  <Ort>Mönchberg</Ort>
+</Standort>
+<Orgelbauer sortkey="weigle_mönchberg">
+  <Name>Friedrich Weigle Orgelbau</Name>
+  <Ort>Echterdingen</Ort>
+  <opus>1266</opus>
+</Orgelbauer>
+<Jahr>1972</Jahr>
+<Klaviatur>
+  <Name>Manual</Name>
+  <Umfang>C-f'''</Umfang>
+  <Reg><Name>Gedackt</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Salicional</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Prinzipal</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Flöte</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Flageolett</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Mixtur</Name><Choere>3</Choere><Lage>1 1/3</Lage>
+      <label>Mixtur 3f.</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>  <!-- parallel, dopp. geschw. -->
+  <Umfang>C-f'</Umfang>
+  <Reg><Name>Subbaß</Name><Lage>16</Lage></Reg>
+</Klaviatur>
+<Koppeln>Pedalkoppel</Koppeln>  <!-- Label: Pedalkoppel, 
+                                         Fusstritt -->
+<Revision date="2008/06/08" by="ms">Umfaenge ergaenzt</Revision>
+<!--
+ 1  2  3  4
+   5  6  7     Man
+
+L:1,2,3,4/5,6,7
+-->
+</Orgel>
+
+
+<Orgel id="org_id015">
+<Standort>
+  <Name>Christuskirche</Name>
+  <Ort>Rohrau</Ort>
+</Standort>
+<Orgelbauer sortkey="stehle">
+  <Name>Fa. Gebr. Stehle, Orgelbauanstalt</Name>
+  <Ort>Bittelbronn-Hohenzollern</Ort>
+  <opus>127</opus>
+</Orgelbauer>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="5"><Name>Flöte</Name><Lage>8</Lage></Reg>
+  <Reg order="4"><Name>Prinzipal</Name><Lage>4</Lage></Reg>
+  <Reg order="2"><Name>Blockflöte</Name><Lage>2</Lage></Reg>
+  <Reg order="3"><Name>Mixtur</Name><Choere>4</Choere><Lage>1 1/3</Lage>
+      <label>Mixtur 1 1/3' 4fach</label></Reg>
+  <Reg order="1"><Name>Sesquialter</Name><Choere>2</Choere>
+      <label>Sesquialter 2fach</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="10"><Name>Grobgedeckt</Name><Lage>8</Lage></Reg>
+  <Reg order="9"><Name>Salicional</Name><Lage>8</Lage></Reg>
+  <Reg order="8"><Name>Kleingedeckt</Name><Lage>4</Lage></Reg>
+  <Reg order="13"><Name>Prinzipal</Name><Lage>2</Lage></Reg>
+  <Reg order="14"><Name>Cymbel</Name><Choere>3</Choere><Lage>2/3</Lage>
+      <label>Cymbel 2/3' 3fach</label></Reg>
+  <Reg order="7"><Name>Tremulant</Name>
+      <label>Tremolo</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>  <!-- parallel, dopp. geschw. -->
+  <Umfang>C-f'</Umfang>
+  <Reg order="6"><Name>Subbass</Name><Lage>16</Lage></Reg>
+  <Reg order="11"><Name>Prinzipal</Name><Lage>8</Lage></Reg>
+  <Reg order="12"><Name>Rohrquintade</Name><Lage>4</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>  <!-- label: Pedal / copplung / II. M.
+                                                Pedal / copplung / I. M.
+                                                [II/I]: kein label
+                                         Fusstritte -->
+<Revision date="2005/01/16" by="ms">neu erfasst</Revision>
+<!--
+                    7  
+ 1  2  3   Man    8  9  10
+  4  5  6       11 12 13 14
+
+L:-/1-3/4-6 R:7/8-10/11-14
+-->
+</Orgel>
+
+
+<Orgel id="org_id016">
+<Standort>
+  <Name>Evang. Kirche</Name>
+  <Ort>Dachtel</Ort>
+</Standort>
+<Orgelbauer sortkey="oesterle_dachtel">
+  <Name>Orgelbau Oesterle</Name>
+  <Ort>Albershausen</Ort>
+  <opus>71</opus>
+</Orgelbauer>
+<Jahr>1975</Jahr>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="6"><Name>Flöte</Name><Lage>8</Lage></Reg>
+  <Reg order="7"><Name>Prinzipal</Name><Lage>4</Lage></Reg>
+  <Reg order="8"><Name>Quinte</Name><Lage>2 2/3</Lage></Reg>
+  <Reg order="9"><Name>Feldflöte</Name><Lage>2</Lage></Reg>
+  <Reg order="10"><Name>Terz</Name><Lage>1 3/5</Lage></Reg>
+  <Reg order="11"><Name>Mixtur</Name><Choere>4</Choere>
+      <label>Mixtur 4f.</label></Reg>
+  <Reg order="12"><Name>Tremulant</Name></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="1"><Name>Rohrgedeckt</Name><Lage>8</Lage></Reg>
+  <Reg order="2"><Name>Blockflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="3"><Name>Oktave</Name><Lage>2</Lage></Reg>
+  <Reg order="4"><Name>Larigot</Name><Lage>1 1/3</Lage></Reg>
+  <Reg order="5"><Name>Oktävlein</Name><Lage>1</Lage></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>
+  <Umfang>C-f'</Umfang>
+  <Reg order="13"><Name>Subbaß</Name><Lage>16</Lage></Reg>
+  <Reg order="14"><Name>Oktavbaß</Name><Lage>8</Lage></Reg>
+  <Reg order="15"><Name>Choralbaß</Name><Lage>4</Lage></Reg>
+  <Reg order="16"><Name>Holztrompete</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>
+<Bemerkung>
+1998 - Erweiterung durch Orgelbau Reichel, Hochdorf, op. 24
+</Bemerkung>
+</Orgel>
+
+
+<Orgel id="org_id017">
+<Standort>
+  <Name>Bricciuskirche</Name>
+  <Ort>Oberjesingen</Ort>
+</Standort>
+<Orgelbauer sortkey="stieglitz">
+  <Name>Jacob Daniel Stieglitz</Name>
+  <Ort>Reutlingen</Ort>
+</Orgelbauer>
+<Jahr>1858</Jahr>
+<Klaviatur>
+  <Name>Manual</Name>
+  <Umfang>C-f'''</Umfang>
+  <Reg order="7"><Name>Principal</Name><Lage>8</Lage>
+      <label>Principal 8 F.</label></Reg>
+  <Reg order="9"><Name>Gedeckt</Name><Lage>8</Lage>
+      <label>Gedek 8 F.</label></Reg>
+  <Reg order="5"><Name>Flöte</Name><Lage>8</Lage>
+      <label>Flöte 8 F.</label></Reg>
+  <Reg order="1"><Name>Salicional</Name><Lage>8</Lage>
+      <label>Salicional 8 F.</label></Reg>
+  <Reg order="4"><Name>Oktave</Name><Lage>4</Lage>
+      <label>Oktav 4 F.</label></Reg>
+  <Reg order="11"><Name>Flöte</Name><Lage>4</Lage>
+      <label>Flöte 4 F.</label></Reg>
+  <Reg order="8"><Name>Oktave</Name><Lage>2</Lage>
+      <label>Oktave 2'</label></Reg>
+  <Reg order="2"><Name>Mixtur</Name><Lage>2</Lage>
+      <label>Mixtur 2 F.</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>  <!-- parallel, nicht geschw. -->
+  <Umfang>C-c'</Umfang>
+  <Reg order="6"><Name>Subbaß</Name><Lage>16</Lage>
+      <label>Subbaß 16 F.</label></Reg>
+  <Reg order="3"><Name>Oktavbaß</Name><Lage>8</Lage>
+      <label>Oktavbaß 8 F.</label></Reg>
+</Klaviatur>
+<Koppeln>Pedalkoppel</Koppeln>  <!-- label: Pedal // Coppel, Zug 10 -->
+<Bemerkung>Registerschweller</Bemerkung>
+<Bemerkung>Windventil</Bemerkung>  <!-- Zug 12 -->
+<Bemerkung>Kegellade</Bemerkung>
+<Bemerkung>
+1993 - Restaurierung durch Firma Rohlf, Neubulach
+</Bemerkung>
+<Quelle>ms, Broschüre "Ausgewählte Orgeln in der Region Stuttgart"</Quelle>
+<Revision date="2004/12/05" by="ms">neu erfasst</Revision>
+<!--
+ 1  2  3   Man   7  8  9
+4  5  6           10 11 12
+
+L:1,2,3/4,5,6 R:7,8,9/10,11,12
+-->
+</Orgel>
+
+
+<Orgel id="org_id018">
+<Standort>
+  <Name>Nikolauskirche</Name>
+  <Ort>Deckenpfronn</Ort>
+</Standort>
+<Orgelbauer sortkey="weigle_deckenpfronn">
+  <Name>Friedrich Weigle Orgelbau</Name>
+  <Ort>Echterdingen</Ort>
+  <opus>935</opus>
+</Orgelbauer>
+<Jahr>1953</Jahr>
+<Klaviatur>
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="3"><Name>Holzflötenprincipal</Name><Lage>8</Lage></Reg>
+  <Reg order="8"><Name>Weidenpfeife</Name><Lage>8</Lage></Reg>
+  <Reg order="4"><Name>Oktave</Name><Lage>4</Lage></Reg>
+  <Reg order="9"><Name>Waldflöte</Name><Lage>2</Lage></Reg>
+  <Reg order="5"><Name>Mixtur</Name><Choere>4-5</Choere>
+      <label>Mixtur 4-5f.</label></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg order="10"><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg order="11"><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="14"><Name>Principal</Name><Lage>2</Lage></Reg>
+  <Reg order="12"><Name>Terzian</Name><Choere>2</Choere>
+      <label>Terzian 2f.</label></Reg>
+  <Reg order="15"><Name>Zimbel</Name><Choere>2</Choere>
+      <label>Zimbel 2f.</label></Reg>
+  <Reg order="13"><Name>Tremulant</Name></Reg>
+</Klaviatur>
+<Klaviatur>
+  <Name>Pedal</Name>  <!-- dopp. geschw., parallel -->
+  <Umfang>C-f'</Umfang>
+  <Reg order="1"><Name>Subbaß</Name><Lage>16</Lage></Reg>
+  <Reg order="2"><Name>Gedecktbaß</Name><Lage>8</Lage></Reg>
+  <Reg order="6"><Name>Hohlflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="7"><Name>Nachthorn</Name><Lage>2</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/P, II/P</Koppeln>  <!-- Label: I:Pedal, II:Pedal, II:I,
+                                         Fusstritte -->
+<Revision date="2005/01/01" by="ms">neu erfasst</Revision>
+<!--
+vertikal L:1-5/6-9 R:10-12/13-15
+-->
+</Orgel>
+
+
+<Orgel id="org_id019">
+<Standort>
+  <Name>Evang. Kirche</Name>
+  <Ort>Affstätt</Ort>
+</Standort>
+<Orgelbauer sortkey="mühleisen">
+  <Name>Werkstätte für Orgelbau Mühleisen</Name>
+  <Ort>Leonberg</Ort>
+  <opus></opus>
+</Orgelbauer>
+<Jahr>1995</Jahr>  <!-- Juni -->
+<Klaviatur order="1">
+  <Name>Hauptwerk</Name>
+  <Umfang>C-d'''</Umfang>
+  <Reg order="1"><Name>Principal</Name><Lage>8</Lage></Reg>
+  <Reg order="2"><Name>Bourdon</Name><Lage>8</Lage></Reg>
+  <Reg order="3"><Name>Octave</Name><Lage>4</Lage></Reg>
+  <Reg order="4"><Name>Mixtur</Name><Lage>2</Lage></Reg>
+  <Reg order="5"><Name>Trompetenregal</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Klaviatur order="2">
+  <Name>Oberwerk</Name>
+  <Umfang>C-d'''</Umfang>
+  <Reg order="8"><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg order="9"><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg order="10"><Name>Flöte</Name><Lage>2</Lage></Reg>
+  <Reg order="11"><Name>Quinte</Name><Lage>2 2/3</Lage></Reg>
+  <Reg order="12"><Name>Terz</Name><Lage>1 3/5</Lage></Reg>
+  <Reg order="13"><Name>Quinte</Name><Lage>1 1/3</Lage></Reg>
+  <Reg order="14"><Name>Tremulant</Name></Reg>
+</Klaviatur>
+<Klaviatur order="P">
+  <Name>Pedal</Name>  <!-- dopp. geschw., parallel -->
+  <Umfang>C-d'</Umfang>
+  <Reg order="6"><Name>Subbaß</Name><Lage>16</Lage></Reg>
+  <Reg order="7"><Name>Gedacktbaß</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, I/II, I/P, II/P</Koppeln>  <!-- Label: II/P, I/P, II/I, I/II
+                                           Fusstritte -->
+<Bemerkung>
+Schleifladen, mechanische Traktur
+</Bemerkung>
+<Revision date="2005/06/29" by="ms">neu erfasst</Revision>
+<!--
+vertikal L:1-7 R:8-14
+-->
+</Orgel>
+
+
+<!-- template
+<Orgel id="org_id000">
+<Standort>
+  <Name></Name>
+  <Ort></Ort>
+</Standort>
+<Orgelbauer sortkey="">
+  <Name></Name>
+  <Ort></Ort>
+  <opus></opus>
+</Orgelbauer>
+<Jahr></Jahr>
+<Klaviatur order="">
+  <Name></Name>
+  <Umfang></Umfang>
+  <Reg order=""><Name></Name><Lage></Lage></Reg>
+</Klaviatur>
+<Koppeln></Koppeln>
+<Revision date="" by="ms">neu erfasst</Revision>
+</Orgel>
+-->
+
+</Orgeldatenbank>

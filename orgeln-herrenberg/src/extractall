@@ -1,0 +1,34 @@
+#!/usr/bin/perl
+
+use XML::Twig;
+use Data::Dumper;
+
+my $progname = 'extractall';
+
+my $db = XML::Twig->new();
+$db->parsefile('orgeldb.xml');
+
+my $prolog = $db->prolog;
+
+my @orgeln = $db->root->children('Orgel');
+
+foreach my $orgel (@orgeln) {
+
+  my $id = $orgel->att('id');
+
+  my $outfile = "$id.xml";
+
+  open(OUT, '>', $outfile) or die "$progname: cannot write `$outfile': $!\n";
+
+  print OUT $prolog;
+  print OUT "\n";
+
+  print OUT "<Orgeldatenbank>\n";
+  $orgel->print(\*OUT);
+  print OUT "</Orgeldatenbank>\n";
+
+
+  print OUT "\n";
+
+  close(OUT) or die "$progname: cannot close `$outfile': $!\n";
+}

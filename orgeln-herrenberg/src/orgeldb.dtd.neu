@@ -1,0 +1,133 @@
+<!-- DTD fuer eine Orgeldatenbank
+
+     Anregungen auch aus IPORE OrganSpec standard -->
+
+
+<!ELEMENT Orgeldatenbank (Orgel)*>
+
+<!ELEMENT Orgel (Standort, Orgelbauer, Jahr?, Lade?,
+                 Klaviatur+, Koppeln, Bemerkung*, Quelle*, Revision*)>
+<!ATTLIST Orgel
+  id ID #REQUIRED
+>
+
+
+<!-- Standort und Erbauer -->
+
+<!ELEMENT Standort   (Name, Ort, Bemerkung*)>
+
+  <!-- Name: genaue Bezeichnung der Kirche, oder "Evang. Kirche" -->
+  <!-- Ort:  Ortschaft                                           -->
+
+<!ELEMENT Orgelbauer (Name, Ort?, opus?, Bemerkung*)>
+
+  <!-- Name: Name der Orgelbaufirma oder "unbekannt" -->
+
+<!ELEMENT Ort  (#PCDATA)>
+<!ELEMENT opus (#PCDATA)>
+
+<!ELEMENT Jahr (#PCDATA)>
+
+<!ELEMENT Lade (#PCDATA)>      <!-- noch nicht benutzt -->
+
+
+<!-- Klaviaturen und Register -->
+
+<!ELEMENT Klaviatur (Name, Umfang, Reg+, Bemerkung*)>
+<!ATTLIST Klaviatur
+  order (1|2|3|4|5|6|7|P|P2) #IMPLIED
+>
+
+  <!-- Atribut "order": 1 = unterstes Manual, P = Pedal -->
+
+<!ELEMENT Umfang (#PCDATA)>
+
+<!ELEMENT Reg (Name, Choere?, Lage?, label?, Bemerkung*)>
+<!ATTLIST Reg
+  id ID #IMPLIED
+  order CDATA #IMPLIED
+  Vorabzug IDREF #IMPLIED
+>
+
+  <!-- Attribut "Vorabzug" enthaelt Referenz auf Register,
+       aus dem das referenzierende Register gezogen wird   -->
+
+<!ELEMENT Choere (#PCDATA)>    <!-- Chorzahl einer Mixtur, z.B. 2, 3-4  -->
+<!ELEMENT Lage (#PCDATA)>      <!-- Tonhoehe (in Fuss): 16, 8, 4, 2 2/3 -->
+<!ELEMENT label (#PCDATA)>     <!-- genaue Bezeichnung auf Registerzug  -->
+<!ELEMENT order (#PCDATA)>
+
+<!ELEMENT Koppeln (#PCDATA | Bemerkung)*>
+<!ATTLIST Koppeln
+  Typ (Tritt|Zug|wechselseitig) #IMPLIED
+>
+
+  <!-- Attribut "Typ": beschreibt, ob Fusstritt, Registerzug
+                       oder wechselseitige Ausloesung        -->
+
+<!-- noch nicht verwendet -->
+
+<!ELEMENT Schweller (#PCDATA)>
+<!ATTLIST Schweller
+  ManualID IDREF #REQUIRED
+  Typ (Jalousie|Tueren) #IMPLIED
+>
+
+  <!-- Attribut "Typ": Jalousieschweller oder Fluegeltueren -->
+
+<!ELEMENT Spielhilfen (#PCDATA | Bemerkung)*>
+                               <!-- Kombinationen, Crescendotritt, ...  -->
+<!-- Ende -->
+
+<!ELEMENT Quelle (#PCDATA)>    <!-- z.B. Prospekt, Internet -->
+
+
+<!-- Infos zu Aenderungen an Datenbank-Eintraegen -->
+
+<!ELEMENT Revision (#PCDATA)>
+<!ATTLIST Revision
+  by   CDATA #REQUIRED
+  date CDATA #REQUIRED
+>
+
+
+<!-- weitere Elemente -->
+
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Bemerkung (#PCDATA | A)*>
+
+<!ELEMENT A (#PCDATA)>         <!-- Link (nur innerhalb Bemerkung) -->
+<!ATTLIST A
+  href CDATA #REQUIRED
+>
+
+
+<!--
+<!ENTITY auml  "&#228;">
+<!ENTITY Auml  "&#196;">
+<!ENTITY ouml  "&#246;">
+<!ENTITY Ouml  "&#214;">
+<!ENTITY uuml  "&#252;">
+<!ENTITY Uuml  "&#220;">
+<!ENTITY szlig "&#223;">
+<!ENTITY nbsp  "&#160;">
+-->
+
+
+<!ENTITY gt     "&amp;gt;">
+<!ENTITY lt     "&amp;lt;">
+<!ENTITY amp    "&amp;amp;">
+<!ENTITY Auml   "&amp;Auml;">
+<!ENTITY aacute "&amp;aacute;">
+<!ENTITY agrave "&amp;agrave;">
+<!ENTITY auml   "&amp;auml;">
+<!ENTITY ccedil "&amp;ccedil;">
+<!ENTITY eacute "&amp;eacute;">
+<!ENTITY egrave "&amp;egrave;">
+<!ENTITY iacute "&amp;iacute;">
+<!ENTITY ntilde "&amp;ntilde;">
+<!ENTITY oacute "&amp;oacute;">
+<!ENTITY ouml   "&amp;ouml;">
+<!ENTITY szlig  "&amp;szlig;">
+<!ENTITY ucirc  "&amp;ucirc;">
+<!ENTITY eol    "&amp;eol;">

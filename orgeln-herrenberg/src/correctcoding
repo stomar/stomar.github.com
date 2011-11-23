@@ -1,0 +1,17 @@
+#!/bin/bash
+# change coding from utf-8 to html named characters (Umlaute)
+
+# usage: cmd files...
+
+for file; do
+  cp $file $file.bak
+  perl -i.bak.tmp -pe 's!content="text/html; charset=UTF-8"!content="text/html; charset=iso-8859-1"!' $file
+  perl -i.bak.tmp -pe 's/ä/&auml;/g' $file
+  perl -i.bak.tmp -pe 's/ö/&ouml;/g' $file
+  perl -i.bak.tmp -pe 's/ü/&uuml;/g' $file
+  perl -i.bak.tmp -pe 's/Ä/&Auml;/g' $file
+  perl -i.bak.tmp -pe 's/Ö/&Ouml;/g' $file
+  perl -i.bak.tmp -pe 's/Ü/&Uuml;/g' $file
+  perl -i.bak.tmp -pe 's/ß/&szlig;/g' $file
+  rm $file.bak.tmp
+done

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+grep 'ä\|ö\|ü\|Ä\|Ö\|Ü\|ß' *.html && echo Umlaut
+
+tidy -q -e *.html || echo HTML-Fehler

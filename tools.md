@@ -6,6 +6,8 @@ date: 2011/11/19 20:49 CET
 
 # Tolle Tools #
 
+Links zu einigen nützlichen Tools:
+
 - [Ruby](http://www.ruby-lang.org/de/) - des Programmierers bester Freund
 - [Markdown-Syntax](http://daringfireball.net/projects/markdown/syntax) - wozu (Libre/Open/MS)-Office-Dokumente, wenn es auch einfacher geht?
 - [pandoc](http://johnmacfarlane.net/pandoc/) - ein Markdown-in-Alles-Konvertierer (HTML, ePub, LaTeX, PDF, ...)

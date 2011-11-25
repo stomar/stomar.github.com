@@ -988,6 +988,80 @@ vertikal L:1-7 R:8-14
 </Orgel>
 
 
+<Orgel id="org_id020">
+<Standort>
+  <Name>St.-Veit-Kirche</Name>
+  <Ort>Gärtringen</Ort>
+</Standort>
+<Orgelbauer sortkey="rensch_gärtringen">
+  <Name>Orgelbau Rensch</Name>
+  <Ort>Lauffen/Neckar</Ort>
+  <opus>150</opus>
+</Orgelbauer>
+<Jahr>1988</Jahr>
+<Klaviatur order="1">
+  <Name>I. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg><Name>Principal</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Großgedeckt</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Flöte</Name><Lage>8</Lage><Bemerkung>ab c0</Bemerkung></Reg>
+  <Reg><Name>Bifara</Name><Lage>8</Lage><Bemerkung>ab f0</Bemerkung></Reg>
+  <Reg><Name>Octave</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Kleingedeckt</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Quinte</Name><Lage>2/3</Lage></Reg>
+  <Reg><Name>Octave</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Mixtur</Name><Choere>4</Choere><Lage>1 1/3</Lage></Reg>
+  <Reg><Name>Trompete</Name><Lage>8</Lage></Reg>
+</Klaviatur>
+<Klaviatur order="2">
+  <Name>II. Manual</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg><Name>Gedeckt</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Quintade</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Principal</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Rohrflöte</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Sesquialter</Name><Choere>2</Choere><Lage>2 2/3</Lage></Reg>
+  <Reg><Name>Doublette</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Larigot</Name><Lage>1 1/3</Lage></Reg>
+  <Reg><Name>Scharff</Name><Choere>4</Choere><Lage>1</Lage></Reg>
+  <Reg><Name>Cromorne</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Tremulant</Name></Reg>
+</Klaviatur>
+<Klaviatur order="3">
+  <Name>III. Basswerk</Name>
+  <Umfang>C-g'''</Umfang>
+  <Reg><Name>Bourdon</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Octav</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Spitzflöte</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Choral</Name><Lage>4</Lage></Reg>
+  <Reg><Name>Hohlflöte</Name><Lage>2</Lage></Reg>
+  <Reg><Name>Fagott</Name><Lage>16</Lage></Reg>
+</Klaviatur>
+<Klaviatur order="P">
+  <Name>Großpedal</Name>
+  <Umfang>C-f'</Umfang>
+  <Reg><Name>Untersatz</Name><Lage>32</Lage></Reg>
+  <Reg><Name>Kontrabass</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Subbass</Name><Lage>16</Lage></Reg>
+  <Reg><Name>Violon</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Gedecktbass</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Posaune</Name><Lage>8</Lage></Reg>
+  <Reg><Name>Trompete</Name><Lage>4</Lage></Reg>
+</Klaviatur>
+<Koppeln>II/I, III/I, I/P, II/P, III/P</Koppeln>
+<Bemerkung>
+Schleifladen mit mechanischer Traktur,
+zusätzlich elektrische Registertraktur mit Setzeranlage (12000 Kombinationen)
+</Bemerkung>
+<Bemerkung>Gehäuse: J. S. Haußdörfer von 1762</Bemerkung>
+<Bemerkung>
+2010 - Renoviert und erweitert durch Firma Rensch, op. 262
+</Bemerkung>
+<Quelle>Online-Werkverzeichnis Rensch</Quelle>
+<Revision date="2011/11/25" by="ms">neu erfasst</Revision>
+</Orgel>
+
+
 <!-- template
 <Orgel id="org_id000">
 <Standort>

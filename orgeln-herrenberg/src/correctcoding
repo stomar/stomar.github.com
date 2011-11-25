@@ -4,7 +4,7 @@
 # usage: cmd files...
 
 for file; do
-  cp $file $file.bak
+  # cp $file $file.bak
   perl -i.bak.tmp -pe 's!content="text/html; charset=UTF-8"!content="text/html; charset=iso-8859-1"!' $file
   perl -i.bak.tmp -pe 's/ä/&auml;/g' $file
   perl -i.bak.tmp -pe 's/ö/&ouml;/g' $file

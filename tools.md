@@ -4,7 +4,7 @@ title: Tolle Tools
 date: 2011/11/19 20:49 CET
 ---
 
-# Tolle Tools #
+# {{ page.title }} #
 
 Links zu einigen nützlichen Tools:
 

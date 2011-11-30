@@ -11,25 +11,31 @@
 
 <!-- begin header -->
 
-<ul class="nav">
+<header>
+<nav>
+<ul>
   <li><a id="top"></a><span class="hidden"><a href="#skip">Navigation &uuml;berspringen</a> | </span>
   <a href="index.html">Home</a></li>
   <li><a href="tools.html">Tolle Tools</a></li>
   <li><a href="lesefutter.html">Lesefutter</a></li>
 </ul>
-<div><a id="skip"></a></div>
+</nav>
 
+<div><a id="skip"></a></div>
 <h1>{{ page.title }}</h1>
+</header>
 
 <!-- begin main body -->
 
 {{ content }}
 
+<!-- begin footer -->
+
 <hr>
-<address>
-<a href="http://validator.w3.org/check?uri=referer"><img src="HTML5_Logo_32_gray.png" width="32" height="32" alt="HTML5" title="HTML5"></a>
+<footer>
+<p><a href="http://validator.w3.org/check?uri=referer"><img src="HTML5_Logo_32_gray.png" width="32" height="32" alt="HTML5" title="HTML5"></a>
 Marcus Stollsteimer <a href="mailto:sto.mar@web.de">&lt;sto.mar@web.de&gt;</a><br>
-Letzte &Auml;nderung: {{ page.date }}
-</address>
+Letzte &Auml;nderung: {{ page.date }}</p>
+</footer>
 </body>
 </html>

@@ -4,8 +4,6 @@ title: Tolle Tools
 date: 2011/11/19 20:49 CET
 ---
 
-# {{ page.title }} #
-
 Links zu einigen nützlichen Tools:
 
 - [Ruby](http://www.ruby-lang.org/de/) - des Programmierers bester Freund

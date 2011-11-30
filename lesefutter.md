@@ -4,8 +4,6 @@ title: Lesefutter
 date: 2011/11/19 20:51 CET
 ---
 
-# {{ page.title }} #
-
 Bücher und Artikel, die sich gerade auf meinem Nachttisch befinden:
 
 - [Learn to Program (Chris Pine)](http://pine.fm/LearnToProgram/) - Programmieren lernen mit Ruby

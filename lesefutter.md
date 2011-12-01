@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Lesefutter
-date: 2011/11/19 20:51 CET
+date: 2011-11-19
 ---
 
 Bücher und Artikel, die sich gerade auf meinem Nachttisch befinden:

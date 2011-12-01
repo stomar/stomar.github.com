@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Marcus Stollsteimer
-date: 2011/11/19 20:30 CET
+date: 2011-11-19
 ---
 
 [Tolle Tools](tools.html)

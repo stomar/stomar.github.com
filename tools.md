@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Tolle Tools
-date: 2011/11/19 20:49 CET
+date: 2011-11-19
 ---
 
 Links zu einigen nützlichen Tools:

@@ -105,6 +105,10 @@ nav a:hover, nav a:focus {
   text-decoration:underline;
 }
 
+nav a:active {
+  color:red;
+}
+
 .hidden {
   display:none;
 }

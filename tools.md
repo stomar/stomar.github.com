@@ -1,7 +1,7 @@
 ---
 layout: main
-title: Tolle Tools
-date: 2011-11-19
+title: Tools
+date: 2011-12-15
 ---
 
 Links zu einigen nützlichen Tools:
@@ -12,3 +12,5 @@ Links zu einigen nützlichen Tools:
 - [Jekyll](http://jekyllrb.com/) - erzeugt Webseiten aus HTML- oder Markdown-Inhalt und Vorlagen
 - [Git](http://git-scm.com/) - das Versionsverwaltungstool, das auch für den Linux-Kernel eingesetzt wird
 - [GitHub](http://github.com/)/[GitHub Pages](http://pages.github.com/) - hostet kostenlos freie Git-Projekte und auf Git basierende Webseiten
+- [zsh](http://zsh.sourceforge.net/) und [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - eine sehr mächtige Shell und eine Sammlung von Erweiterungen dazu
+- [taskwarrior](http://taskwarrior.org/) - ein Aufgaben-Verwaltungsprogramm für die Kommandozeile

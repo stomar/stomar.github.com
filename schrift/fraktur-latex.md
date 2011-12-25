@@ -4,6 +4,8 @@ title: Fraktursatz mit LaTeX
 date: 2010-05-13
 ---
 
+{:pdf: type="application/pdf"}
+
 - [Besonderheiten der Fraktur](#Einleitung)
 - [Warum LaTeX?](#LaTeX)
 - [Verf&uuml;gbare Pakete](#Pakete)
@@ -44,7 +46,7 @@ Die verschiedenen s-Buchstaben sowie Ligaturen werden weitgehend
 automatisch gesetzt, auch korrekter Sperrsatz wird erleichtert.
 
 Ein etwas l&auml;ngerer Text in der Alten Schwabacher:
-<a href="Die_Schildbuerger_bauen_ein_Rathaus_a5.pdf" type="application/pdf">Ein Schildb&uuml;rgerstreich</a> (PDF, 38 KB)
+[Ein Schildb&uuml;rgerstreich](Die_Schildbuerger_bauen_ein_Rathaus_a5.pdf){:pdf} (PDF, 38 KB)
 
 Weitere Texte: [E-Books in Fraktur](ebooks.html)
 

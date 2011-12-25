@@ -10,7 +10,8 @@ date: 2010-05-13
 - [Warum LaTeX?](#LaTeX)
 - [Verf&uuml;gbare Pakete](#Pakete)
 
-## <a id="Einleitung">Besonderheiten der Fraktur</a> ##
+## Besonderheiten der Fraktur ##
+{: #Einleitung}
 
 Wer Texte auf dem Rechner in Fraktur setzen will, st&ouml;&szlig;t
 schnell auf gewisse Schwierigkeiten. Absolute Grundvoraussetzung
@@ -51,7 +52,8 @@ Ein etwas l&auml;ngerer Text in der Alten Schwabacher:
 Weitere Texte: [E-Books in Fraktur](ebooks.html)
 
 
-## <a id="LaTeX">Warum LaTeX?</a> ##
+## Warum LaTeX? ##
+{: #LaTeX}
 
 LaTeX ist ein sehr m&auml;chtiges Schriftsatzsystem mit vielen
 St&auml;rken.
@@ -91,7 +93,8 @@ Ein guter Startpunkt f&uuml;r Informationen zu LaTeX ist die
 der deutschen Anwendervereinigung <img src="/images/de.gif" alt="deutschsprachige Seite" height="10" width="16">&nbsp;[DANTE](http://www.dante.de/).
 
 
-## <a id="Pakete">Verf&uuml;gbare Pakete</a> ##
+## Verf&uuml;gbare Pakete ##
+{: #Pakete}
 
 F&uuml;r eine Einbindung neuer Schriften in LaTeX gen&uuml;gt nicht
 einfach eine ttf-Datei; es werden auch so genannte Fontmetriken und
@@ -113,7 +116,7 @@ f&uuml;r verschiedene Fonts zur Verf&uuml;gung stellen:
 - fraktur
   <br />
   Dieses Paket liefert Anpassungen f&uuml;r einige kostenlose Fonts,
-  sowie f&uuml;r eine Reihe kommerzieller Fonts von Delbanco.<br>
+  sowie f&uuml;r eine Reihe kommerzieller Fonts von Delbanco.<br />
   Allerdings kann es bei der Verwendung mit pdfLaTeX unter Umst&auml;nden
   zu Problemen mit einigen Adobe-Schriftarten (Times, Helvetica, Palatino,
   Courier) kommen.

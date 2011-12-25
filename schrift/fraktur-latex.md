@@ -89,8 +89,8 @@ Nachteile:
   und hochmotivierte &raquo;Community&laquo; von LaTeX-Benutzern.
 
 Ein guter Startpunkt f&uuml;r Informationen zu LaTeX ist die
-<img src="/images/de.gif" alt="deutschsprachige Seite" height="10" width="16">&nbsp;[Hilfeseite (DE-TeX-FAQ)](http://www.dante.de/faq/de-tex-faq/html/de-tex-faq.html)
-der deutschen Anwendervereinigung <img src="/images/de.gif" alt="deutschsprachige Seite" height="10" width="16">&nbsp;[DANTE](http://www.dante.de/).
+{%include de%}[Hilfeseite (DE-TeX-FAQ)](http://www.dante.de/faq/de-tex-faq/html/de-tex-faq.html)
+der deutschen Anwendervereinigung {%include de%}[DANTE](http://www.dante.de/).
 
 
 ## Verf&uuml;gbare Pakete ##
@@ -111,7 +111,7 @@ f&uuml;r verschiedene Fonts zur Verf&uuml;gung stellen:
   (siehe n&auml;chster Punkt). Es ist leicht zu installieren, und umfasst
   eine wachsende Auswahl von Schriftarten.
   <br />
-  _Quelle:_ <img src="/images/de.gif" alt="deutschsprachige Seite" height="10" width="16">&nbsp;[www.gaehrken.de/fraktur](http://www.gaehrken.de/fraktur/)
+  _Quelle:_ {%include de%}[www.gaehrken.de/fraktur](http://www.gaehrken.de/fraktur/)
 
 - fraktur
   <br />
@@ -121,7 +121,7 @@ f&uuml;r verschiedene Fonts zur Verf&uuml;gung stellen:
   zu Problemen mit einigen Adobe-Schriftarten (Times, Helvetica, Palatino,
   Courier) kommen.
   <br />
-  _Quelle:_ <img src="/images/de.gif" alt="deutschsprachige Seite" height="10" width="16">&nbsp;[user.uni-frankfurt.de/~muehlich/tex/texindex.html](http://user.uni-frankfurt.de/~muehlich/tex/texindex.html)
+  _Quelle:_ {%include de%}[user.uni-frankfurt.de/~muehlich/tex/texindex.html](http://user.uni-frankfurt.de/~muehlich/tex/texindex.html)
 
 - yfonts / oldgerm
   <br />
@@ -132,7 +132,7 @@ f&uuml;r verschiedene Fonts zur Verf&uuml;gung stellen:
   Dieselben Schriften k&ouml;nnen allerdings weitaus
   komfortabler mit dem Paket frakturx verwendet werden.
   <br />
-  _Quelle:_ <img src="/images/en.gif" alt="englischsprachige Seite" height="10" width="16">&nbsp;[www.ctan.org](http://www.ctan.org/)
+  _Quelle:_ {%include en%}[www.ctan.org](http://www.ctan.org/)
 
 Weitere allgemeine Informationen zum Fraktursatz, Beispieltexte und
 detailliertere Vergleiche der verschiedenen Pakete finden sich bei den

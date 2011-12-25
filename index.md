@@ -1,14 +1,18 @@
 ---
 layout: main
 title: Marcus Stollsteimer
-date: 2011-11-19
+date: 2011-12-24
 ---
 
 [Schrift](schrift/index.html)
 
   : Fraktur, Textsatzsystem LaTeX
 
-[Tolle Tools](tools.html)
+[Musik](musik/index.html)
+
+  : Orgeln in und um Herrenberg, Noten, Kirchenmusik-Texte
+
+[Tools](tools.html)
 
   : Links zu einigen nützlichen Tools
 

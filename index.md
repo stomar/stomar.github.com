@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Marcus Stollsteimer
+title: Home
 date: 2011-12-24
 ---
 

@@ -1,135 +1,184 @@
-/* for old browsers (new HTML5 tags) */
+/*** reset all ***/
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd,
+q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav,
+section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/*** for old browsers (new HTML5 tags) ***/
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display:block;
+  display: block;
 }
 
-/* general */
+/*** general behavior ***/
 
-body {
-  margin-left:5%;
-  margin-right:5%;
-  color:black;
-  background-color:#F8F8FF; /* ghostwhite */
-  font-family:sans-serif;
+/* force a vertical scrollbar to prevent a jumpy page */
+html { overflow-y: scroll; }
+
+/* focus: outline visible for users tabbing through the page
+a { outline: none; }
+a:focus { outline: red thin dotted; } */
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #333;
+  cursor: help;
 }
 
-h1,h2,h3 {
-  font-size:larger;
+/*** fonts and colors ***
+
+/* Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
+body { font-family: Helmet, Freesans, sans-serif; }
+
+body { background-color: #f8f8ff; } /* ghostwhite */
+
+body, select, input, textarea {
+  color: #333;
 }
 
-img {
-  border-width:0px;
+a { color: #03f; }
+a:hover { color: #69f; }
+
+/*** main page structure ***/
+
+body > header {
+  padding: 10px 0px 0px 5%;
+  background-color: #cdf;
+  color: #777;
+}
+
+body > header h1 {
+  padding: 0;
+  font-size: 100%;
+}
+
+body > nav {
+  padding: 0px 5px 20px 5px;
+  background-color: #cdf;
+  background: linear-gradient(top, #cdf, #f8f8ff);
+  background: -ms-linear-gradient(top, #cdf, #f8f8ff);
+  background: -moz-linear-gradient(top, #cdf, #f8f8ff);
+  background: -o-linear-gradient(top, #cdf, #f8f8ff);
+  background: -webkit-linear-gradient(top, #cdf, #f8f8ff);
+}
+
+body > section {
+  padding: 10px 5%;
+}
+
+body > hr {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+body > footer {
+  padding: 5px 5%;
+  font-size: small;
+}
+
+body > footer img {
+  float: right;
+}
+
+/*** Padding and margins ***/
+
+h1, h2, h3 {
+  font-size: larger;
+  padding: 1ex 0;
+}
+
+p {
+  padding: .5ex 0;
 }
 
 ol, ul {
-  line-height:150%;
+  padding: 1ex 0;
+  padding-left: 2em;
+}
+
+dl {
+  padding: 1ex 0;
+}
+
+dd {
+  padding-left: 2em;
 }
 
 pre {
-  text-indent:2em;
+  padding: 1ex 0;
+  text-indent: 2em;
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
 }
 
-footer {
-  font-size:small;
+/*** navigation bar ***/
+
+/* reset (no margins, padding, ...) */
+nav ul, nav li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
-
-footer img {
-  float:right;
-}
-
-acronym[title] {
-  border-bottom:1px dotted silver;
-  cursor:help;
-}
-
-@media print {
-
-  acronym[title] {
-    border-bottom:none;
-  }
-
-}
-
-/* inactive links in gray */
-.inactive {
-  color:#A9A9A9; /* darkgray */
-}
-
-.centered { 
-  text-align:center
-}
-
-/* link list */
-
-.linklist li {
-  margin-top:10pt;
-}
-
-.linklist li:first-line {
-  font-weight:bold;
-}
-
-.linklist a {
-  font-family:sans-serif;
-  font-size:small
-}
-
-/* table of contents */
-
-.toc {
-  border-spacing:1ex;
-}
-
-.toc tr {
-  vertical-align:top;
-}
-
-/* navigation bar */
 
 nav {
   font-weight:bold;
   list-style-type:none;
   text-align:center;
-  padding:5px;
 }
 
 nav li {
   display:inline;
-  padding:5px 20px;
   white-space:nowrap;
+  padding: 0px 20px;
 }
 
 nav a {
-  color:#696969; /* dimgray */
+  color:#777;
   text-decoration:none;
+
+  transition: color 500ms linear;
+  -moz-transition: color 500ms linear;
+  -o-transition: color 500ms linear;
+  -webkit-transition: color 500ms linear;
 }
 
 nav a:hover, nav a:focus {
-  text-decoration:underline;
+  color:#333;
 }
 
-nav a:active {
-  color:red;
+nav .hidden {
+  display: none;
 }
 
-.hidden {
-  display:none;
-}
-
-@media print {
-
-  nav {
-    display:none;
-  }
-
-}
-
-/* disclaimer */
+/*** classes ***/
 
 p.disclaimer {
-  margin-top:5em;
+  margin-top:3em;
   margin-left:3em;
   margin-right:3em;
   font-size:0.6em;
+}
+
+/*** print styles ***/
+@media print {
+
+  body > nav {
+    display: none;
+  }
+
 }

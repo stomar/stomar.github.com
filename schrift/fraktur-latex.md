@@ -49,8 +49,11 @@ automatisch gesetzt, auch korrekter Sperrsatz wird erleichtert.
 Ein etwas längerer Text in der Alten Schwabacher:
 [Ein Schildbürgerstreich](Die_Schildbuerger_bauen_ein_Rathaus_a5.pdf){:pdf} (PDF, 38 KB)
 
-Weitere Texte: [E-Books in Fraktur](ebooks.html)
-
+Weitere Beispiele:
+-   [E-Books in Fraktur](ebooks.html)
+-   Noten in Fraktur (gesetzt mit GNU LilyPond):
+    * [Nun ruhen alle Wälder](/musik/noten/nun_ruhen.pdf){:pdf} (PDF, 32 KB)
+    * [O Welt, sieh hier dein Leben](/musik/noten/o_welt.pdf){:pdf} (PDF, 32 KB)
 
 ## Warum LaTeX? ##
 {: #LaTeX}

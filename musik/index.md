@@ -19,3 +19,7 @@ date: 2007-03-12
 [Lieder des Evangelischen Gesangbuchs](EG.html)
 
   : Übersicht über die Lieder des EG-Stammteils
+
+[Links](links.html)
+
+  : Externe Links

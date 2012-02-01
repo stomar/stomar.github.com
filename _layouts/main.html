@@ -16,13 +16,15 @@
 <h1>Marcus Stollsteimer</h1>
 </header>
 
+{% capture urlstring %}{{ page.url | prepend:'BASEURL' }}{% endcapture %}
+
 <nav>
 <ul id="top">
   <li{% if page.url == "/index.html" %} class="selected"{% endif %}>
     <span class="hidden"><a href="#pagetitle">Navigation überspringen</a> | </span>
     <a href="/index.html">Home</a></li>
-  <li{% if page.url == "/schrift/index.html" %} class="selected"{% endif %}><a href="/schrift/index.html">Schrift</a></li>
-  <li{% if page.url == "/musik/index.html" %} class="selected"{% endif %}><a href="/musik/index.html">Musik</a></li>
+  <li{% if urlstring contains "BASEURL/schrift/" %} class="selected"{% endif %}><a href="/schrift/index.html">Schrift</a></li>
+  <li{% if urlstring contains "BASEURL/musik/" %} class="selected"{% endif %}><a href="/musik/index.html">Musik</a></li>
   <li{% if page.url == "/tools.html" %} class="selected"{% endif %}><a href="/tools.html">Tools</a></li>
   <li{% if page.url == "/lesefutter.html" %} class="selected"{% endif %}><a href="/lesefutter.html">Lesefutter</a></li>
 </ul>

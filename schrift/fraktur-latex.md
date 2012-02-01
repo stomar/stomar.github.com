@@ -92,8 +92,8 @@ Nachteile:
   und hochmotivierte &raquo;Community&laquo; von LaTeX-Benutzern.
 
 Ein guter Startpunkt für Informationen zu LaTeX ist die
-{% include de %}[Hilfeseite (DE-TeX-FAQ)](http://www.dante.de/faq/de-tex-faq/html/de-tex-faq.html)
-der deutschen Anwendervereinigung {% include de %}[DANTE](http://www.dante.de/).
+[Hilfeseite (DE-TeX-FAQ)](http://www.dante.de/faq/de-tex-faq/html/de-tex-faq.html){.de}
+der deutschen Anwendervereinigung [DANTE](http://www.dante.de/){.de}.
 
 
 ## Verfügbare Pakete ##
@@ -114,7 +114,7 @@ für verschiedene Fonts zur Verfügung stellen:
   (siehe nächster Punkt). Es ist leicht zu installieren, und umfasst
   eine wachsende Auswahl von Schriftarten.
   <br />
-  _Quelle:_ {% include de %}[www.gaehrken.de/fraktur](http://www.gaehrken.de/fraktur/)
+  _Quelle:_ [www.gaehrken.de/fraktur](http://www.gaehrken.de/fraktur/){.de}
 
 - fraktur
   <br />
@@ -124,7 +124,7 @@ für verschiedene Fonts zur Verfügung stellen:
   zu Problemen mit einigen Adobe-Schriftarten (Times, Helvetica, Palatino,
   Courier) kommen.
   <br />
-  _Quelle:_ {% include de %}[user.uni-frankfurt.de/~muehlich/tex/texindex.html](http://user.uni-frankfurt.de/~muehlich/tex/texindex.html)
+  _Quelle:_ [user.uni-frankfurt.de/~muehlich/tex/texindex.html](http://user.uni-frankfurt.de/~muehlich/tex/texindex.html){.de}
 
 - yfonts / oldgerm
   <br />
@@ -135,7 +135,7 @@ für verschiedene Fonts zur Verfügung stellen:
   Dieselben Schriften können allerdings weitaus
   komfortabler mit dem Paket frakturx verwendet werden.
   <br />
-  _Quelle:_ {% include en %}[www.ctan.org](http://www.ctan.org/)
+  _Quelle:_ [www.ctan.org](http://www.ctan.org/){.de}
 
 Weitere allgemeine Informationen zum Fraktursatz, Beispieltexte und
 detailliertere Vergleiche der verschiedenen Pakete finden sich bei den

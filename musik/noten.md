@@ -10,7 +10,7 @@ Hier finden Sie verschiedene Noten als PDF-Dateien. Die Noten
 entstanden aus eigenem Bedarf heraus, die Auswahl ist daher sehr
 begrenzt und willkürlich.
 
-Für den Notensatz wurde {% include en %}[GNU LilyPond](http://lilypond.org/) verwendet.
+Für den Notensatz wurde [GNU LilyPond](http://lilypond.org/){.en} verwendet.
 
 ## Choralsätze von Johann Sebastian Bach ##
 

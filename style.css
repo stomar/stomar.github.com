@@ -144,7 +144,7 @@ nav {
 nav li {
   display:inline;
   white-space:nowrap;
-  padding: 0px 20px;
+  padding: 0 1.5em;
 }
 
 nav a {
@@ -166,6 +166,16 @@ nav .hidden {
 }
 
 /*** classes ***/
+
+a.de {
+  padding-left: 20px;
+  background: url("images/de.gif") left center no-repeat;
+}
+
+a.en {
+  padding-left: 20px;
+  background: url("images/en.gif") left center no-repeat;
+}
 
 p.disclaimer {
   margin-top:3em;

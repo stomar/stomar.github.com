@@ -18,12 +18,13 @@
 
 <nav>
 <ul id="top">
-  <li><span class="hidden"><a href="#pagetitle">Navigation überspringen</a> | </span>
-  <a href="/index.html">Home</a></li>
-  <li><a href="/schrift/index.html">Schrift</a></li>
-  <li><a href="/musik/index.html">Musik</a></li>
-  <li><a href="/tools.html">Tools</a></li>
-  <li><a href="/lesefutter.html">Lesefutter</a></li>
+  <li{% if page.url == "/index.html" %} class="selected"{% endif %}>
+    <span class="hidden"><a href="#pagetitle">Navigation überspringen</a> | </span>
+    <a href="/index.html">Home</a></li>
+  <li{% if page.url == "/schrift/index.html" %} class="selected"{% endif %}><a href="/schrift/index.html">Schrift</a></li>
+  <li{% if page.url == "/musik/index.html" %} class="selected"{% endif %}><a href="/musik/index.html">Musik</a></li>
+  <li{% if page.url == "/tools.html" %} class="selected"{% endif %}><a href="/tools.html">Tools</a></li>
+  <li{% if page.url == "/lesefutter.html" %} class="selected"{% endif %}><a href="/lesefutter.html">Lesefutter</a></li>
 </ul>
 </nav>
 

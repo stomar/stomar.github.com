@@ -161,6 +161,10 @@ nav a:hover, nav a:focus {
   color:#333;
 }
 
+nav li.selected a {
+  color:#333;
+}
+
 nav .hidden {
   display: none;
 }

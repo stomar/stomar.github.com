@@ -172,13 +172,13 @@ nav .hidden {
 /*** classes ***/
 
 a.de {
-  padding-left: 20px;
-  background: url("images/de.gif") left center no-repeat;
+  padding-right: 20px;
+  background: url("images/de.gif") right center no-repeat;
 }
 
 a.en {
-  padding-left: 20px;
-  background: url("images/en.gif") left center no-repeat;
+  padding-right: 20px;
+  background: url("images/en.gif") right center no-repeat;
 }
 
 p.disclaimer {

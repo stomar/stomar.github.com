@@ -1,7 +1,6 @@
 ---
 layout: main
 title: Home
-date: 2011-12-24
 ---
 
 [Schrift](schrift/index.html)

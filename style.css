@@ -86,7 +86,7 @@ body > footer {
   font-size: small;
 }
 
-body > footer img {
+body > footer img.right {
   float: right;
 }
 

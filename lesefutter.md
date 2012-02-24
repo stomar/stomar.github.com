@@ -6,7 +6,7 @@ date: 2012-02-23
 
 Bücher und Artikel, die sich gerade auf meinem Nachttisch befinden:
 
-- [Eloquent Ruby (Russ Olsen)](http://ruby.about.com/od/reviewsevents/gr/Eloquent-Ruby-By-Russ-Olsen.htm){.en} (Rezension bei About.com)
+- Eloquent Ruby (Russ Olsen) - [Rezension bei About.com](http://ruby.about.com/od/reviewsevents/gr/Eloquent-Ruby-By-Russ-Olsen.htm){.en}
 - [Programming Ruby - The Pragmatic Programmers' Guide (Dave Thomas)](http://pragprog.com/book/ruby3/programming-ruby-1-9){.en}
 - [Learn to Program (Chris Pine)](http://pine.fm/LearnToProgram/){.en} - Programmieren lernen mit Ruby
 - [The Unofficial Ruby Usage Guide (Ian Macdonald)](http://www.caliban.org/ruby/rubyguide.shtml){.en}

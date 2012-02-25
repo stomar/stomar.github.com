@@ -49,6 +49,8 @@ body, select, input, textarea {
 a { color: #03f; }
 a:hover { color: #69f; }
 
+body > footer a, a:hover, a:focus { color: #333; }
+
 /*** main page structure ***/
 
 body > header {

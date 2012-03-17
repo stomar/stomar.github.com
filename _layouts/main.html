@@ -28,7 +28,7 @@
     <a href="/index.html">Home</a></li>
   <li{% if urlstring contains "BASEURL/schrift/" %} class="selected"{% endif %}><a href="/schrift/index.html">Schrift</a></li>
   <li{% if urlstring contains "BASEURL/musik/" %} class="selected"{% endif %}><a href="/musik/index.html">Musik</a></li>
-  <li{% if page.url == "/tools.html" %} class="selected"{% endif %}><a href="/tools.html">Tools</a></li>
+  <li{% if urlstring contains "BASEURL/computer/" %} class="selected"{% endif %}><a href="/computer/index.html">Computer</a></li>
   <li{% if page.url == "/lesefutter.html" %} class="selected"{% endif %}><a href="/lesefutter.html">Lesefutter</a></li>
 </ul>
 </nav>

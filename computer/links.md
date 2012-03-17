@@ -1,7 +1,7 @@
 ---
-layout: main
-title: Tools
-date: 2011-12-15
+layout: links
+title: Externe Links (Computer)
+date: 2012-02-25
 ---
 
 Links zu einigen nützlichen Tools:

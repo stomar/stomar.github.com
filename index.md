@@ -11,9 +11,9 @@ title: Home
 
   : Orgeln in und um Herrenberg, Noten, Kirchenmusik-Texte
 
-[Tools](tools.html)
+[Computer](computer/index.html)
 
-  : Links zu einigen nützlichen Tools
+  : Programmierprojekte, Links zu nützlichen Tools
 
 [Lesefutter](lesefutter.html)
 

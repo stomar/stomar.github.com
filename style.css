@@ -46,6 +46,8 @@ body, select, input, textarea {
   color: #333;
 }
 
+h1 { font-size: larger; }
+
 a { color: #03f; }
 a:hover { color: #69f; }
 
@@ -94,8 +96,7 @@ body > footer img.right {
 
 /*** Padding and margins ***/
 
-h1, h2, h3 {
-  font-size: larger;
+h1, h2, h3, h4, h5, h6 {
   padding: 1ex 0;
 }
 

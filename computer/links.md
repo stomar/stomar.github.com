@@ -1,12 +1,13 @@
 ---
 layout: links
 title: Externe Links (Computer)
-date: 2012-02-25
+date: 2012-03-18
 ---
 
 Links zu einigen nützlichen Tools:
 
 - [Ruby](http://www.ruby-lang.org/de/){.en} - des Programmierers bester Freund
+- [vim](http://de.wikipedia.org/wiki/Vim){.de} - mein meistgenutzter Texteditor
 - [Markdown-Syntax](http://daringfireball.net/projects/markdown/syntax){.en} - wozu (Libre/Open/MS)-Office-Dokumente, wenn es auch einfacher geht?
 - [pandoc](http://johnmacfarlane.net/pandoc/){.en} - ein Markdown-in-Alles-Konvertierer (HTML, ePub, LaTeX, PDF, ...)
 - [Jekyll](http://jekyllrb.com/){.en} - erzeugt Webseiten aus HTML- oder Markdown-Inhalt und Vorlagen

@@ -15,6 +15,8 @@ Seitengrößen vor:
 2. 5 Zoll: optimiert für kleine E-Book-Reader
    (Bildschirmdiagonale 5 Zoll, Seitenverhältnis 4:3, ohne Rand, Flattersatz)
 
+Gesetzt wurden die Texte mithilfe von [LaTeX](fraktur-latex.html).
+
 Verfügbare Texte (alphabetisch nach Autor):
 
 - Ein Schildbürgerstreich: &raquo;Die Schildbürger bauen ein Rathaus&laquo;<br />

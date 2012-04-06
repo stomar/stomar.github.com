@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Computer
-date: 2012-03-17
+date: 2012-04-06
 ---
 
 [Ruby]: http://www.ruby-lang.org/
@@ -20,6 +20,10 @@ Einige kleine Programmierprojekte in [Ruby][Ruby], [LaTeX][LaTeX] und HTML.
   : Ein Kommandozeilen-Tool um mehrere Kopien einer PDF-Seite (verkleinert)
     auf eine einzige Seite zu setzen.
     (Benutzt `pdflatex` mit dem `pdfpages`-Paket.)
+
+[nametrainer](https://github.com/stomar/nametrainer/) (Ruby/Qt)
+
+  : Eine kleine GUI-Anwendung zum Lernen von Namen mithilfe einer Bildersammlung.
 
 [ka](https://github.com/stomar/ka/) (LaTeX)
 

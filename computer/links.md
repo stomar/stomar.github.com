@@ -1,7 +1,7 @@
 ---
 layout: links
 title: Externe Links (Computer)
-date: 2012-03-18
+date: 2012-04-06
 ---
 
 Links zu einigen nützlichen Tools:
@@ -16,6 +16,13 @@ Links zu einigen nützlichen Tools:
 - [zsh](http://zsh.sourceforge.net/){.en} und [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh){.en} - eine sehr mächtige Shell und eine Sammlung von Erweiterungen dazu
 - [taskwarrior](http://taskwarrior.org/){.en} - ein Aufgaben-Verwaltungsprogramm für die Kommandozeile
 
+Podcasts und Magazine zu Open Source, Linux, Web, usw.:
+
+- [freiesMagazin](http://www.freiesmagazin.de/){.de} - erscheint monatlich als PDF, EPUB und HTML
+- [Binärgewitter](http://blog.binaergewitter.de/){.de} - wöchentliche Talksendung als Stream und Podcast
+- [DeimHart](http://deimhart.net/){.de} - monatlicher Podcast
+- [RadioTux](http://www.radiotux.de/){.de} - Interviews und monatliche Magazinsendung als Podcast
+
 Bücher und Artikel zu Ruby, Softwareentwicklung, usw.:
 
 - [Learn to Program (Chris Pine)](http://pine.fm/LearnToProgram/){.en} -
@@ -25,6 +32,7 @@ Bücher und Artikel zu Ruby, Softwareentwicklung, usw.:
   sehr empfehlenswerte Vertiefung in die Eigenheiten von Ruby
 - [Programming Ruby - The Pragmatic Programmers' Guide (Dave Thomas)](http://pragprog.com/book/ruby3/programming-ruby-1-9){.en} -
   die Ruby-Standardreferenz
+- [GitHub Ruby Styleguide](https://github.com/styleguide/ruby/){.en}
 - [The Unofficial Ruby Usage Guide (Ian Macdonald)](http://www.caliban.org/ruby/rubyguide.shtml){.en}
 - [Readme Driven Development (Tom Preston-Werner)](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html){.en}
 - [Dive into HTML5](http://diveintohtml5.info/){.en}

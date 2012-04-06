@@ -220,7 +220,7 @@ EG 184     Wir glauben Gott im höchsten Thron
 EG 185.1   Heilig (Neuenrade)
 EG 185.2   Heilig (gregorianisch)
 EG 185.3   Heilig (Steinau/Oder)
-EG 185.4   Agios o Theos / Heiliger Herre Gott 
+EG 185.4   Agios o Theos / Heiliger Herre Gott
 EG 185.5   Sanctus
 EG 186     Vater unser im Himmel (gregorianisch)
 EG 187     Vater unser in dem Himmel (Frankfurt/Main)

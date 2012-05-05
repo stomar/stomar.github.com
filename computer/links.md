@@ -1,7 +1,7 @@
 ---
 layout: links
 title: Externe Links (Computer)
-date: 2012-04-06
+date: 2012-05-05
 ---
 
 Links zu einigen nützlichen Tools:
@@ -32,6 +32,7 @@ Bücher und Artikel zu Ruby, Softwareentwicklung, usw.:
   sehr empfehlenswerte Vertiefung in die Eigenheiten von Ruby
 - [Programming Ruby - The Pragmatic Programmers' Guide (Dave Thomas)](http://pragprog.com/book/ruby3/programming-ruby-1-9){.en} -
   die Ruby-Standardreferenz
+- [Ruby Koans](http://rubykoans.com/){.en} - Der "Weg zur Erleuchtung" mit 280 kleinen Ruby-Aufgaben
 - [GitHub Ruby Styleguide](https://github.com/styleguide/ruby/){.en}
 - [The Unofficial Ruby Usage Guide (Ian Macdonald)](http://www.caliban.org/ruby/rubyguide.shtml){.en}
 - [Readme Driven Development (Tom Preston-Werner)](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html){.en}

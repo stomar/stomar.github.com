@@ -6,6 +6,7 @@ date: 2012-05-05
 
 Bücher und Artikel, die sich gerade auf meinem Nachttisch befinden:
 
+- John Buchan: Greenmantle (1916) - siehe [J. Buchan bei Feedbooks](http://de.feedbooks.com/author/17){.en}
 - [Ruby Koans](http://rubykoans.com/){.en} - Der "Weg zur Erleuchtung" mit 280 kleinen Ruby-Aufgaben
 - Eloquent Ruby (Russ Olsen) - [Rezension bei About.com](http://ruby.about.com/od/reviewsevents/gr/Eloquent-Ruby-By-Russ-Olsen.htm){.en}
 - [Programming Ruby - The Pragmatic Programmers' Guide (Dave Thomas)](http://pragprog.com/book/ruby3/programming-ruby-1-9){.en}

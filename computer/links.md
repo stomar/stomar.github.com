@@ -16,12 +16,15 @@ Links zu einigen nützlichen Tools:
 - [zsh](http://zsh.sourceforge.net/){.en} und [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh){.en} - eine sehr mächtige Shell und eine Sammlung von Erweiterungen dazu
 - [taskwarrior](http://taskwarrior.org/){.en} - ein Aufgaben-Verwaltungsprogramm für die Kommandozeile
 
-Podcasts und Magazine zu Open Source, Linux, Web, usw.:
+Podcasts und Magazine zu Open Source, Linux, Web, Ruby, usw.:
 
 - [freiesMagazin](http://www.freiesmagazin.de/){.de} - erscheint monatlich als PDF, EPUB und HTML
 - [Binärgewitter](http://blog.binaergewitter.de/){.de} - wöchentliche Talksendung als Stream und Podcast
 - [DeimHart](http://deimhart.net/){.de} - monatlicher Podcast
 - [RadioTux](http://www.radiotux.de/){.de} - Interviews und monatliche Magazinsendung als Podcast
+- [Ruby Rogues](http://rubyrogues.com/){.en} - wöchentlicher Podcast über Ruby und verwandte Themen
+- [Teach me to code](http://teachmetocode.com/){.en} - Podcast zu unterschiedlichen Software-Themen
+- [The Ruby Show](http://rubyshow.com/){.en} - Podcast insbesondere zu Neuigkeiten rund um Ruby
 
 Bücher und Artikel zu Ruby, Softwareentwicklung, usw.:
 

@@ -27,11 +27,11 @@ Einige kleine Programmierprojekte in [Ruby][Ruby], [LaTeX][LaTeX] und HTML.
 
 [ka](https://github.com/stomar/ka/) (LaTeX)
 
-  : Ein LaTeX-Paket für Klassenarbeiten und Tests
+  : Ein LaTeX-Paket für Klassenarbeiten und Tests.
 
 [stomar.github.com](https://github.com/stomar/stomar.github.com/) (HTML/CSS)
 
-  : Die Quelltexte dieser Webseite
+  : Die Quelltexte dieser Webseite.
 
 [Links](links.html)
 

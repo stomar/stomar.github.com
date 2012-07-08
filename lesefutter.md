@@ -1,11 +1,12 @@
 ---
 layout: main
 title: Lesefutter
-date: 2012-05-13
+date: 2012-07-08
 ---
 
 Bücher und Artikel, die sich gerade auf meinem Nachttisch befinden:
 
+- Donna Leon: Blutige Steine
 - Agatha Christie: Il caso della Stella d'Occidente (The Adventure of the Western Star)
 - John Buchan: Greenmantle (1916) - siehe [J. Buchan bei Feedbooks](http://de.feedbooks.com/author/17){.en}
 - [Ruby Koans](http://rubykoans.com/){.en} - Der "Weg zur Erleuchtung" mit 280 kleinen Ruby-Aufgaben

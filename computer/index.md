@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Computer
-date: 2012-04-06
+date: 2012-07-08
 ---
 
 [Ruby]: http://www.ruby-lang.org/
@@ -20,6 +20,12 @@ Einige kleine Programmierprojekte in [Ruby][Ruby], [LaTeX][LaTeX] und HTML.
   : Ein Kommandozeilen-Tool um mehrere Kopien einer PDF-Seite (verkleinert)
     auf eine einzige Seite zu setzen.
     (Benutzt `pdflatex` mit dem `pdfpages`-Paket.)
+
+[firedown](https://github.com/stomar/firedown/) (Ruby)
+
+  : Ein Kommandozeilen-Tool um einen Linux-Rechner über
+    Dropbox oder andere Synchronisationsdienste
+    ferngesteuert herunterzufahren.
 
 [nametrainer](https://github.com/stomar/nametrainer/) (Ruby/Qt)
 

@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Computer
-date: 2012-07-08
+date: 2013-01-04
 ---
 
 [Ruby]: http://www.ruby-lang.org/
@@ -26,6 +26,11 @@ Einige kleine Programmierprojekte in [Ruby][Ruby], [LaTeX][LaTeX] und HTML.
   : Ein Kommandozeilen-Tool um einen Linux-Rechner über
     Dropbox oder andere Synchronisationsdienste
     ferngesteuert herunterzufahren.
+
+[deblank](https://github.com/stomar/deblank/) (Ruby)
+
+  : Ein Kommandozeilen-Tool um Leerzeichen, Umlaute und Sonderzeichen
+    aus Dateinamen zu entfernen.
 
 [nametrainer](https://github.com/stomar/nametrainer/) (Ruby/Qt)
 

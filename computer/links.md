@@ -1,7 +1,7 @@
 ---
 layout: links
 title: Externe Links (Computer)
-date: 2012-05-05
+date: 2013-01-05
 ---
 
 Links zu einigen nützlichen Tools:
@@ -33,6 +33,9 @@ Bücher und Artikel zu Ruby, Softwareentwicklung, usw.:
 - Eloquent Ruby (Russ Olsen):
   [Rezension bei About.com](http://ruby.about.com/od/reviewsevents/gr/Eloquent-Ruby-By-Russ-Olsen.htm){.en} -
   sehr empfehlenswerte Vertiefung in die Eigenheiten von Ruby
+- [Practical Object-Oriented Design in Ruby (Sandi Metz)](http://my.safaribooksonline.com/book/programming/ruby/9780132930895){.en} -
+  kurzweilige Darstellung verschiedener OOP-Prinzipien und ihrer
+  praktischen Umsetzung
 - [Programming Ruby - The Pragmatic Programmers' Guide (Dave Thomas)](http://pragprog.com/book/ruby3/programming-ruby-1-9){.en} -
   die Ruby-Standardreferenz
 - [Ruby Koans](http://rubykoans.com/){.en} - Der "Weg zur Erleuchtung" mit 280 kleinen Ruby-Aufgaben

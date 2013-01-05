@@ -14,7 +14,3 @@ title: Home
 [Computer](computer/index.html)
 
   : Programmierprojekte, Links zu nützlichen Tools
-
-[Lesefutter](lesefutter.html)
-
-  : Bücher und Artikel, die ich gerade interessant finde

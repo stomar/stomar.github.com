@@ -1,13 +1,20 @@
 ---
 layout: main
 title: Computer
-date: 2013-01-04
+date: 2014-01-01
 ---
 
 [Ruby]: http://www.ruby-lang.org/
 [LaTeX]: http://de.wikipedia.org/LaTeX
 
 Einige kleine Programmierprojekte in [Ruby][Ruby], [LaTeX][LaTeX] und HTML.
+
+[pnm](https://github.com/stomar/pnm/) (Ruby)
+
+  : Eine Bibliothek zum Erstellen, Lesen und Schreiben von
+    Bilddateien im `PNM`-Format (Portable Anymap):
+    `PBM` (Portable Bitmap), `PGM` (Portable Graymap)
+    und `PPM` (Portable Pixmap).
 
 [numren](https://github.com/stomar/numren/) (Ruby)
 

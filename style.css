@@ -35,7 +35,7 @@ abbr[title], dfn[title] {
   cursor: help;
 }
 
-/*** fonts and colors ***
+/*** fonts and colors ***/
 
 /* Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
 body { font-family: Helmet, Freesans, sans-serif; }

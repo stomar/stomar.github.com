@@ -2,6 +2,8 @@
 
 <ul>
   <% orgeln.each do |orgel| -%>
-  <li><a href="<%= orgel.id %>.html"><%= orgel.standort["Ort"] %> (<%= orgel.standort["Kirche"] %>)</a></li>
+  <% ort = orgel.standort["Ort"] -%>
+  <% kirche = orgel.standort["Kirche"] -%>
+  <li><a href="<%= orgel.id %>.html"><%= "#{ort} (#{kirche})" %></a></li>
   <% end -%>
 </ul>

@@ -2,6 +2,9 @@
 
 <ul>
   <% orgeln.each do |orgel| -%>
-  <li><%= ERB::Util.html_escape(orgel.erbauer["Name"]) %> (<a href="<%= orgel.id %>.html"><%= orgel.standort["Ort"] %>, <%= orgel.standort["Kirche"] %></a>)</li>
+  <% erbauer = ERB::Util.html_escape(orgel.erbauer["Name"]) -%>
+  <% ort = orgel.standort["Ort"] -%>
+  <% kirche = orgel.standort["Kirche"] -%>
+  <li><%= erbauer %> (<a href="<%= orgel.id %>.html"><%= "#{ort}, #{kirche}" %></a>)</li>
   <% end -%>
 </ul>

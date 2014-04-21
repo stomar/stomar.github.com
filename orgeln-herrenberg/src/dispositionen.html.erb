@@ -5,15 +5,17 @@
 
 <table cellspacing="20"><tr valign="top">
   <% orgel.klaviaturen.each do |klaviatur| %>
+  <% name = klaviatur["Name"] -%>
+  <% umfang = klaviatur["Umfang"] ? " (#{klaviatur["Umfang"]})" : "" -%>
   <td>
     <table cellspacing="5">
       <tr><th colspan="2" align="left">
-        <%= klaviatur["Name"] %><% if klaviatur["Umfang"] %> (<%= klaviatur["Umfang"] %>)<% end %>
+        <%= name + umfang %>
       </th></tr>
       <% klaviatur["Register"].each do |reg| -%>
       <% name = (reg["Name"] == "Tremulant" ? "<em>Tremulant</em>" : reg["Name"]) -%>
-      <% choere = (reg["Choere"] ? " " + reg["Choere"] + "f." : "") -%>
-      <% vorabzug = (reg["Vorabzug_von"] ? " (Vorabzug)" : "") -%>
+      <% choere = reg["Choere"] ? " " + reg["Choere"] + "f." : "" -%>
+      <% vorabzug = reg["Vorabzug_von"] ? " (Vorabzug)" : "" -%>
       <% lage = reg["Lage"] ? reg["Lage"] + "'" : "" -%>
       <tr><td><%= name + choere + vorabzug %></td><td><%= lage %></td></tr>
       <% end -%>

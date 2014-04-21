@@ -44,7 +44,7 @@
         </xsl:for-each>
 
         <address>
-          Marcus Stollsteimer <a href="mailto:sto.nar@web.de">&lt;sto.mar@web.de&gt;</a>
+          Marcus Stollsteimer <a href="mailto:sto.mar@web.de">&lt;sto.mar@web.de&gt;</a>
         </address>
       </body>
     </html>

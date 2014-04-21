@@ -1,0 +1,1513 @@
+---
+- id: org_id001
+  Standort:
+    Kirche: Stiftskirche
+    Ort: Herrenberg
+  Erbauer:
+    sortkey: rensch_herrenberg
+    Name: Orgelbau Rensch
+    Ort: Lauffen/Neckar
+    opus: 137
+  Jahr: 1985
+  Klaviaturen:
+  - order: '1'
+    Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - Name: Bourdon
+      Lage: '16'
+    - Name: Principal
+      Lage: '8'
+      Bemerkung: teilweise Prospekt
+    - Name: Holzflöte
+      Lage: '8'
+    - Name: Octave
+      Lage: '4'
+    - Name: Rohrflöte
+      Lage: '4'
+    - Name: Quinte
+      Lage: 2 2/3
+    - Name: Octave
+      Lage: '2'
+    - Name: Mixtur
+      Lage: '2'
+      label: Mixtur V
+      Choere: '5'
+    - Name: Zimbel
+      Lage: 1/2
+      label: Zimbel III
+      Choere: '3'
+    - Name: Kornett
+      Lage: '8'
+      label: Kornett V
+      Choere: '5'
+      Bemerkung: ab f0
+    - Name: Trompete
+      Lage: '8'
+  - order: '2'
+    Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - Name: Salicional
+      Lage: '8'
+    - Name: Schwebung
+      Lage: '8'
+      Bemerkung: ab c0
+    - Name: Gedeckt
+      Lage: '8'
+    - Name: Geigenprincipal
+      Lage: '8'
+      Bemerkung: teilweise Prospekt
+    - Name: Flauto dolce
+      Lage: '4'
+    - Name: Fugara
+      Lage: '4'
+    - Name: Waldflöte
+      Lage: '2'
+    - Name: Scharf
+      Lage: 1 1/3
+      label: Scharf IV-VI
+      Choere: 4-6
+    - Name: Klarinette
+      Lage: '8'
+  - order: '3'
+    Name: Rückpositiv
+    Umfang: C-g'''
+    Register:
+    - Name: Rohrgedeckt
+      Lage: '8'
+    - Name: Principal
+      Lage: '4'
+      Bemerkung: Prospekt, vor Schweller
+    - Name: Kleingedeckt
+      Lage: '4'
+    - Name: Sesquialter
+      label: Sesquialter II
+      Choere: '2'
+    - Name: Octave
+      Lage: '2'
+    - Name: Quinte
+      Lage: 1 1/3
+    - Name: Scharfzimbel
+      Lage: '1'
+      label: Scharfzimbel IV
+      Choere: '4'
+    - Name: Basson-Hautbois
+      Lage: '8'
+    - Name: Tremulant
+  - order: P
+    Name: Pedal
+    Umfang: C-f'
+    Register:
+    - Name: Principalbaß
+      Lage: '16'
+    - Name: Subbaß
+      Lage: '16'
+    - Name: Octavbaß
+      Lage: '8'
+    - Name: Spitzflöte
+      Lage: '8'
+    - Name: Choralbaß
+      Lage: '4'
+    - Name: Posaune
+      Lage: '16'
+    - Name: Trompete
+      Lage: '8'
+    - Name: Clarine
+      Lage: '4'
+  Koppeln: II/I, III/I, III/II, I/P, II/P, III/P
+  Bemerkungen:
+  - Zimbelstern
+  - Schweller Rückpositiv
+  - Schleifladen, mechanische Spieltraktur, elektrische Registertraktur.
+  - |-
+    Elektronische Setzerkombination mit 128 frei
+    einstellbaren Setzern, Schrittschalter vorwärts und rückwärts,
+    Absteller.
+  - |-
+    Erbaut unter Verwendung des Prospekts und des Pfeifenmaterials der
+    Walcker-Orgel von 1890. Rückpositiv neu.
+  - '1890 - Einbau einer Kegelladen-Orgel durch die Orgelbaufirma Eberhard Friedrich
+    Walcker, Ludwigsburg, op. 540 (Größe: II/25)'
+  - 1961 - Umbau der Walcker-Orgel (Rensch, op. 22)
+  - 1985 - Neubau (Rensch)
+  - <a href="../Disposition_Hbg.pdf">Druckversion (PDF, 31KB)</a>
+  Quellen:
+  - ms, Prospekt der Ki.Gem., Online-Werkverzeichnis Rensch, Opusliste Walcker
+  Revisionen: []
+- id: org_id002
+  Standort:
+    Kirche: Stephanuskirche
+    Ort: Kuppingen
+  Erbauer:
+    sortkey: degraaf
+    Name: De Graaf / Rensch
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '9'
+      Name: Pommer
+      Lage: '16'
+    - id: '8'
+      Name: Prinzipal
+      Lage: '8'
+    - id: '10'
+      Name: Holzflöte
+      Lage: '8'
+    - id: '7'
+      Name: Oktave
+      Lage: '4'
+    - id: '11'
+      Name: Flötgedeckt
+      Lage: '4'
+    - id: '12'
+      Name: Waldflöte
+      Lage: '2'
+    - id: '6'
+      Name: Mixtur
+      Lage: 1 1/3
+      label: Mixtur 4f.
+      Choere: '4'
+  - Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '17'
+      Name: Gedeckt
+      Lage: '8'
+    - id: '18'
+      Name: Rohrflöte
+      Lage: '4'
+    - id: '16'
+      Name: Prinzipal
+      Lage: '2'
+    - id: '20'
+      Name: Sesquialter
+      label: Sesquialter 2f.
+      Choere: '2'
+    - id: '19'
+      Name: Quinte
+      Lage: 1 1/3
+    - id: '15'
+      Name: Zimbel
+      Lage: 1/2
+      label: Zimbel 3f.
+      Choere: '3'
+    - id: '14'
+      Name: Trompetenregal
+      Lage: '8'
+      label: Tromp.regal
+    - id: '13'
+      Name: Tremulant
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - id: ''
+      Name: Subbass
+      Lage: '16'
+    - id: ''
+      Name: Oktavbass
+      Lage: '8'
+    - id: ''
+      Name: Rohrpommer
+      Lage: '4'
+      label: R. Pommer
+    - id: ''
+      Name: Hintersatz
+      Lage: 2 2/3
+      label: Hintersatz 3f.
+      Choere: '3'
+    - id: ''
+      Name: Fagott
+      Lage: '16'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen:
+  - Schweller Brustwerk
+  Quellen: []
+  Revisionen:
+  - Datum: 2004/12/24
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id003
+  Standort:
+    Kirche: Stephanskirche
+    Ort: Nebringen
+  Erbauer:
+    sortkey: walcker
+    Name: E. F. Walcker & Cie.
+    Ort: Ludwigsburg - Württemberg
+    opus: 446
+  Jahr: 1885
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-f'''
+    Register:
+    - Name: Bourdon
+      Lage: '16'
+    - Name: Prinzipal
+      Lage: '8'
+    - Name: Floete
+      Lage: '8'
+    - Name: Viola di Gamba
+      Lage: '8'
+    - Name: Oktav
+      Lage: '4'
+    - Name: Mixtur
+      Lage: 2 2/3
+      label: Mixtur 3fach
+      Choere: '3'
+  - Name: II. Manual
+    Umfang: C-f'''
+    Register:
+    - Name: Lieblich Gedeckt
+      Lage: '8'
+      label: Liebl. Gedeckt
+    - Name: Salicional
+      Lage: '8'
+    - Name: Floete
+      Lage: '4'
+  - Name: Pedal
+    Umfang: C-d'
+    Register:
+    - Name: Subbass
+      Lage: '16'
+    - Name: Violon
+      Lage: '8'
+  Koppeln: II/I, I/P, Tutti
+  Bemerkungen:
+  - mechanische Kegellade
+  - Spieltisch freistehend
+  - 1979 - Restaurierung durch Firma Rensch, op. 115
+  Quellen:
+  - ms, Online-Werkverzeichnis Rensch
+  Revisionen: []
+- id: org_id004
+  Standort:
+    Kirche: Spitalkirche
+    Ort: Herrenberg
+  Erbauer:
+    sortkey: plum_herrenberg
+    Name: Orgelbau Plum
+  Klaviaturen:
+  - Name: Manual 1/2
+    Umfang: C-g'''
+    Register:
+    - id: '4'
+      Name: Metallflöte
+      Lage: '8'
+    - id: '5'
+      Name: Gedeckt
+      Lage: '8'
+    - id: '6'
+      Name: Oktave
+      Lage: '4'
+    - id: '7'
+      Name: Rohrflöte
+      Lage: '4'
+    - id: '8'
+      Name: Prinzipal
+      Lage: '2'
+    - id: '9'
+      Name: Waldflöte
+      Lage: '2'
+    - id: '10'
+      Name: Quinte
+      Lage: 1 1/3
+    - id: '11'
+      Name: Sesquialter
+      label: Sesquialter 2 2/3' + 1 3/5'
+      Choere: '2'
+    - id: '12'
+      Name: Mixtur
+      Lage: '1'
+      label: Mixtur 4f.
+      Choere: '4'
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - id: '1'
+      Name: Subbaß
+      Lage: '16'
+    - id: '2'
+      Name: Flöte
+      Lage: '8'
+    - id: '3'
+      Name: Trompetenbaß
+      Lage: '8'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen:
+  - Wechselschleife
+  Quellen: []
+  Revisionen:
+  - Datum: 2004/11/18
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id005
+  Standort:
+    Kirche: Jakobuskirche
+    Ort: Haslach
+  Erbauer:
+    sortkey: rensch_haslach
+    Name: Orgelbau Rensch
+    Ort: Lauffen/Neckar
+    opus: 52
+  Jahr: 1967
+  Klaviaturen:
+  - order: '1'
+    Name: Hauptwerk
+    Umfang: C-g'''
+    Register:
+    - id: '3'
+      Name: Flöte
+      Lage: '8'
+    - id: '2'
+      Name: Prinzipal
+      Lage: '4'
+    - id: '4'
+      Name: Sesquialter
+      label: Sesquialter 2f.
+      Choere: '2'
+    - id: '1'
+      Name: Mixtur
+      Lage: 1 1/3
+      label: Mixtur 4f.
+      Choere: '4'
+  - order: '2'
+    Name: Brustwerk
+    Umfang: C-g'''
+    Register:
+    - id: '8'
+      Name: Singend Gedeckt
+      Lage: '8'
+      label: Sing. Ged.
+    - id: '9'
+      Name: Rohrflöte
+      Lage: '4'
+    - id: '7'
+      Name: Prinzipal
+      Lage: '2'
+    - id: '10'
+      Name: Quinte
+      Lage: 1 1/3
+    - id: '6'
+      Name: Scharfzimbel
+      Lage: 2/3
+      label: Scharfzimb. 3f.
+      Choere: '3'
+    - id: '5'
+      Name: Tremulant
+      label: Tremulant BW
+  - order: P
+    Name: Pedal
+    Umfang: C-f'
+    Register:
+    - id: '12'
+      Name: Subbass
+      Lage: '16'
+    - id: '13'
+      Name: Flötbass
+      Lage: '8'
+    - id: '11'
+      Name: Choralbass
+      Lage: '4'
+      label: Choralbass 3f.
+      Choere: '3'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen:
+  - Schweller Brustwerk
+  Quellen:
+  - ms, Online-Werkverzeichnis Rensch
+  Revisionen:
+  - Datum: 2005/01/06
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id006
+  Standort:
+    Kirche: Martinskirche
+    Ort: Oberjettingen
+  Erbauer:
+    sortkey: oesterle_oberjettingen
+    Name: Kurt Oesterle
+    Ort: Reichenbach/Fils
+    opus: 56
+  Jahr: 1972
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '6'
+      Name: Prinzipal
+      Lage: '8'
+    - id: '7'
+      Name: Rohrflöte
+      Lage: '8'
+    - id: '8'
+      Name: Oktave
+      Lage: '4'
+    - id: '9'
+      Name: Sesquialter
+      label: Sesquialter 2-fach
+      Choere: '2'
+    - id: '10'
+      Name: Blockflöte
+      Lage: '2'
+    - id: '11'
+      Name: Mixtur
+      label: Mixtur 3-4 fach
+      Choere: 3-4
+    - id: '0'
+      Name: Krummhorn
+      Lage: '8'
+    - Name: Tremulant
+      Bemerkung: Fußtritt
+  - Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '1'
+      Name: Gedeckt
+      Lage: '8'
+    - id: '2'
+      Name: Hohlflöte
+      Lage: '4'
+    - id: '3'
+      Name: Prinzipal
+      Lage: '2'
+    - id: '4'
+      Name: Quinte
+      Lage: 1 1/3
+    - id: '5'
+      Name: Scharfzimbel
+      label: Scharfzimbel 3-fach
+      Choere: '3'
+    - Name: Tremulant
+      Bemerkung: Fußtritt
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - id: '12'
+      Name: Subbaß
+      Lage: '16'
+    - id: '13'
+      Name: Oktavbaß
+      Lage: '8'
+    - id: '14'
+      Name: Choralbaß
+      Lage: '4'
+    - id: '15'
+      Name: Trompete
+      Lage: '8'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen:
+  - Schweller II. Manual
+  Quellen: []
+  Revisionen:
+  - Datum: 2004/11/07
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id007
+  Standort:
+    Kirche: Mutterhauskirche
+    Ort: Herrenberg
+  Erbauer:
+    sortkey: oesterle_herrenberg
+    Name: Kurt Oesterle Orgelbau
+    Ort: Reichenbach/Fils
+    opus: 26
+  Jahr: 1967
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '1'
+      Name: Offenflöte
+      Lage: '8'
+    - id: '2'
+      Name: Prinzipal
+      Lage: '4'
+    - id: '3'
+      Name: Quinte
+      Lage: 2 2/3
+    - id: '4'
+      Name: Waldflöte
+      Lage: '2'
+    - id: '5'
+      Name: Terz
+      Lage: 1 3/5
+    - id: '6'
+      Name: Mixtur
+      label: Mixtur 4fach
+      Choere: '4'
+  - Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '12'
+      Name: Gedeckt
+      Lage: '8'
+    - id: '14'
+      Name: Salizional
+      Lage: '8'
+    - id: '13'
+      Name: Rohrflöte
+      Lage: '4'
+    - id: '15'
+      Name: Prinzipal
+      Lage: '2'
+    - id: '17'
+      Name: Sifflöte
+      Lage: 1 1/3
+    - id: '16'
+      Name: Schalmey
+      Lage: '8'
+    - id: '11'
+      Name: Tremulant
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - id: '10'
+      Name: Subbaß
+      Lage: '16'
+    - id: '9'
+      Name: Gemshorn
+      Lage: '8'
+    - id: '8'
+      Name: Dolkan
+      Lage: '4'
+    - id: '7'
+      Name: Fagott
+      Lage: '8'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen: []
+  Quellen: []
+  Revisionen: []
+- id: org_id008
+  Standort:
+    Kirche: Evang. Kirche
+    Ort: Tailfingen
+  Erbauer:
+    sortkey: mühleisen
+    Name: Werkstätte für Orgelbau Mühleisen
+    Ort: Leonberg
+  Jahr: 1997
+  Klaviaturen:
+  - Name: Manual I/II
+    Umfang: C-g'''
+    Register:
+    - id: '8'
+      Name: Bourdon
+      Lage: '16'
+    - id: '9'
+      Name: Principal
+      Lage: '8'
+    - id: '1'
+      Name: Großgedackt
+      Lage: '8'
+    - id: '4'
+      Name: Salicional
+      Lage: '8'
+    - id: '10'
+      Name: Octave
+      Lage: '4'
+    - id: '2'
+      Name: Holzflöte
+      Lage: '4'
+    - id: '3'
+      Name: Spitzflöte
+      Lage: '4'
+    - id: '5'
+      Name: Quinte
+      Lage: 2 2/3
+      label: Quinte 3'
+    - id: '11'
+      Name: Octave
+      Lage: '2'
+    - id: '6'
+      Name: Mixtur
+      Lage: '2'
+    - id: '7'
+      Name: Cymbel
+      Lage: '2'
+    - id: '12'
+      Name: Tremulant
+  - Name: Pedal
+    Umfang: C-d'
+    Register:
+    - id: '15'
+      Name: Subbaß
+      Lage: '16'
+    - id: '14'
+      Name: Octavbaß
+      Lage: '8'
+    - id: '13'
+      Name: Posaune
+      Lage: '8'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen:
+  - Pleno
+  - Wechselschleife
+  Quellen: []
+  Revisionen:
+  - Datum: 2004/12/19
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id009
+  Standort:
+    Kirche: Heilig-Kreuz-Kirche
+    Ort: Reusten
+  Erbauer:
+    sortkey: vier
+    Name: Martin Vier, Werkstätte für Orgelbau
+    Ort: Friesenheim
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - Name: Flöte
+      Lage: '8'
+    - Name: Prinzipal
+      Lage: '4'
+    - Name: Quinte
+      Lage: 2 2/3
+      Vorabzug_von: Sesq
+    - id: Sesq
+      Name: Sesquialter
+      label: Sesquialter 1-2f.
+      Choere: '2'
+    - Name: Oktave
+      Lage: '2'
+      Vorabzug_von: Mix
+    - id: Mix
+      Name: Mixtur
+      label: Mixtur 3fach
+      Choere: '3'
+  - Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - Name: Gedackt
+      Lage: '8'
+    - Name: Rohrflöte
+      Lage: '4'
+    - Name: Gemshorn
+      Lage: '2'
+    - Name: Quinte
+      Lage: 1 1/3
+      Vorabzug_von: Lrg
+    - id: Lrg
+      Name: Larigot
+      Lage: 1 1/3 + 1
+      label: Larigot 1 1/3' + 1'
+      Choere: '2'
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - Name: ''
+      Lage: '16'
+      label: 16'
+    - Name: ''
+      Lage: '8'
+      label: 8'
+    - Name: ''
+      Lage: '4'
+      label: 4'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen:
+  - Schleiflade, mechanische Traktur
+  Quellen: []
+  Revisionen:
+  - Datum: 2004/11/21
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id010
+  Standort:
+    Kirche: Evang. Kirche
+    Ort: Altingen
+  Erbauer:
+    sortkey: weigle_altingen
+    Name: Friedrich Weigle Orgelbau
+    Ort: Echterdingen
+    opus: 1123
+  Jahr: 1964
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '3'
+      Name: Flöte
+      Lage: '8'
+    - id: '4'
+      Name: Singend Prinzipal
+      Lage: '4'
+      label: Sing. Prinzipal
+    - id: '5'
+      Name: Waldflöte
+      Lage: '2'
+    - id: '1'
+      Name: Sesquialter
+      label: Sesquialter 2 f. 2 2/3' + 1 3/5'
+      Choere: '2'
+    - id: '2'
+      Name: Mixtur
+      Lage: 1/3
+      label: Mixtur 4 f. 1/3'
+      Choere: '4'
+  - Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '13'
+      Name: Gedeckt
+      Lage: '8'
+    - id: '12'
+      Name: Rohrflöte
+      Lage: '4'
+    - id: '11'
+      Name: Prinzipal
+      Lage: '2'
+    - id: '10'
+      Name: Spitzquinte
+      Lage: 1 1/3
+    - id: '9'
+      Name: Zimbel
+      Lage: 1/2
+      label: Zimbel 3 f. 1/2'
+      Choere: '3'
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - id: '6'
+      Name: Subbass
+      Lage: '16'
+    - id: '7'
+      Name: Flötbass
+      Lage: '8'
+    - id: '8'
+      Name: Pommer
+      Lage: '4'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen: []
+  Quellen: []
+  Revisionen:
+  - Datum: 2004/11/21
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id011
+  Standort:
+    Kirche: Peterskirche
+    Ort: Gültstein
+  Erbauer:
+    sortkey: weinmar
+    Name: Johann Jakob Weinmar
+    Ort: Bondorf
+  Jahr: 1786
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-f'''
+    Register:
+    - Name: Bourdon
+      Lage: '16'
+    - Name: Principal
+      Lage: '8'
+    - Name: Gedeckt
+      Lage: '8'
+    - Name: Salicional
+      Lage: '8'
+    - Name: Oktave
+      Lage: '4'
+    - Name: Gedecktflöte
+      Lage: '4'
+    - Name: Quinte
+      Lage: 2 2/3
+    - Name: Oktave
+      Lage: '2'
+    - Name: Mixtur
+    - Name: Oktavzymbel
+      label: Oktavzymbel 3fach
+      Choere: '3'
+    - Name: Cornett
+      label: Cornett 3fach
+      Choere: '3'
+  - Name: II. Manual
+    Umfang: C-f'''
+    Register:
+    - Name: Rohrgedeckt
+      Lage: '8'
+    - Name: Rohrschalmey
+      Lage: '8'
+    - Name: Principal
+      Lage: '4'
+    - Name: Spitzflöte
+      Lage: '4'
+    - Name: Schwiegel
+      Lage: '2'
+    - Name: Scharff
+      label: Scharff 3f.
+      Choere: '3'
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - Name: Subbass
+      Lage: '16'
+    - Name: Oktavbass
+      Lage: '8'
+    - Name: Trompete
+      Lage: '8'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen:
+  - Zimbelstern
+  - |-
+    2004 - Sanierung/Umbau durch Firma Scharfe, Ebersbach an der Fils
+    (Choralbass 4' im Pedal ersetzt durch Trompete 8', Zimbelstern neu)
+  - 1982 - Restaurierung durch Firma Rensch, op. 125
+  - 1940 - Umbau? durch Firma Weigle, Echterdingen, op. 796
+  Quellen:
+  - ms, Online-Werkverzeichnis Rensch, Gäubote vom 23. und 28.06.2004
+  Revisionen:
+  - Datum: 2004/07/11
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id012
+  Standort:
+    Kirche: Michaelskirche
+    Ort: Unterjettingen
+  Erbauer:
+    sortkey: plum_unterjettingen
+    Name: Orgelbau Plum
+    Ort: Marbach/Neckar
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - Name: Prinzipal
+      Lage: '8'
+    - Name: Gemshorn
+      Lage: '8'
+    - Name: Oktave
+      Lage: '4'
+    - Name: Gedecktflöte
+      Lage: '4'
+    - Name: Nasat
+      Lage: 2 2/3
+    - Name: Waldflöte
+      Lage: '2'
+    - Name: Mixtur
+      Lage: 1 1/3
+      label: Mixtur 4f.
+      Choere: '4'
+  - Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - Name: Gedeckt
+      Lage: '8'
+    - Name: Flöte
+      Lage: '4'
+    - Name: Prinzipal
+      Lage: '2'
+    - Name: Terzian
+      label: Terzian 2f.
+      Choere: '2'
+    - Name: Scharfzimbel
+      Lage: 1/2
+      label: Scharfzimbel 3f.
+      Choere: '3'
+    - Name: Tremulant
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - Name: Subbaß
+      Lage: '16'
+    - Name: Oktavbaß
+      Lage: '8'
+    - Name: Choralbaß
+      Lage: 4 + 2
+      label: Choralbaß 4' + 2'
+      Choere: '2'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen: []
+  Quellen: []
+  Revisionen: []
+- id: org_id013
+  Standort:
+    Kirche: Mauritiuskirche
+    Ort: Mötzingen
+  Erbauer:
+    sortkey: weigle_mötzingen
+    Name: Friedrich Weigle Orgelbau
+    Ort: Echterdingen
+    opus: 1045
+  Jahr: 1960
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '3'
+      Name: Flötenprinzipal
+      Lage: '8'
+    - id: '4'
+      Name: Oktave
+      Lage: '4'
+    - id: '5'
+      Name: Nachthorn
+      Lage: '4'
+    - id: '6'
+      Name: Blockflöte
+      Lage: '2'
+    - id: '1'
+      Name: Sesquialter
+      label: Sesquialter 2 f.
+      Choere: '2'
+    - id: '2'
+      Name: Mixtur
+      Lage: 1 1/3
+      label: Mixtur 4 f. 1 1/3'
+      Choere: '4'
+  - Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '15'
+      Name: Gedeckt
+      Lage: '8'
+    - id: '14'
+      Name: Rohrflöte
+      Lage: '4'
+    - id: '13'
+      Name: Prinzipal
+      Lage: '2'
+    - id: '12'
+      Name: Spitzquinte
+      Lage: 1 1/3
+    - id: '11'
+      Name: Scharfzimbel
+      Lage: 1/2
+      label: Scharfzimbel 3 f. 1/2'
+      Choere: '3'
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - id: '7'
+      Name: Subbass
+      Lage: '16'
+    - id: '8'
+      Name: Oktavbass
+      Lage: '8'
+    - id: '9'
+      Name: Pommer
+      Lage: '4'
+    - id: '10'
+      Name: Hintersatz
+      Lage: '4'
+      label: Hintersatz 3 f. 4'
+      Choere: '3'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen: []
+  Quellen: []
+  Revisionen:
+  - Datum: 2004/12/07
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id014
+  Standort:
+    Kirche: Michaelskirche
+    Ort: Mönchberg
+  Erbauer:
+    sortkey: weigle_mönchberg
+    Name: Friedrich Weigle Orgelbau
+    Ort: Echterdingen
+    opus: 1266
+  Jahr: 1972
+  Klaviaturen:
+  - Name: Manual
+    Umfang: C-f'''
+    Register:
+    - Name: Gedackt
+      Lage: '8'
+    - Name: Salicional
+      Lage: '8'
+    - Name: Prinzipal
+      Lage: '4'
+    - Name: Flöte
+      Lage: '4'
+    - Name: Flageolett
+      Lage: '2'
+    - Name: Mixtur
+      Lage: 1 1/3
+      label: Mixtur 3f.
+      Choere: '3'
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - Name: Subbaß
+      Lage: '16'
+  Koppeln: Pedalkoppel
+  Bemerkungen: []
+  Quellen: []
+  Revisionen:
+  - Datum: 2008/06/08
+    Autor: ms
+    Beschreibung: Umfaenge ergaenzt
+- id: org_id015
+  Standort:
+    Kirche: Christuskirche
+    Ort: Rohrau
+  Erbauer:
+    sortkey: stehle
+    Name: Fa. Gebr. Stehle, Orgelbauanstalt
+    Ort: Bittelbronn-Hohenzollern
+    opus: 127
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '5'
+      Name: Flöte
+      Lage: '8'
+    - id: '4'
+      Name: Prinzipal
+      Lage: '4'
+    - id: '2'
+      Name: Blockflöte
+      Lage: '2'
+    - id: '3'
+      Name: Mixtur
+      Lage: 1 1/3
+      label: Mixtur 1 1/3' 4fach
+      Choere: '4'
+    - id: '1'
+      Name: Sesquialter
+      label: Sesquialter 2fach
+      Choere: '2'
+  - Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '10'
+      Name: Grobgedeckt
+      Lage: '8'
+    - id: '9'
+      Name: Salicional
+      Lage: '8'
+    - id: '8'
+      Name: Kleingedeckt
+      Lage: '4'
+    - id: '13'
+      Name: Prinzipal
+      Lage: '2'
+    - id: '14'
+      Name: Cymbel
+      Lage: 2/3
+      label: Cymbel 2/3' 3fach
+      Choere: '3'
+    - id: '7'
+      Name: Tremulant
+      label: Tremolo
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - id: '6'
+      Name: Subbass
+      Lage: '16'
+    - id: '11'
+      Name: Prinzipal
+      Lage: '8'
+    - id: '12'
+      Name: Rohrquintade
+      Lage: '4'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen: []
+  Quellen: []
+  Revisionen:
+  - Datum: 2005/01/16
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id016
+  Standort:
+    Kirche: Evang. Kirche
+    Ort: Dachtel
+  Erbauer:
+    sortkey: oesterle_dachtel
+    Name: Orgelbau Oesterle
+    Ort: Albershausen
+    opus: 71
+  Jahr: 1975
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '6'
+      Name: Flöte
+      Lage: '8'
+    - id: '7'
+      Name: Prinzipal
+      Lage: '4'
+    - id: '8'
+      Name: Quinte
+      Lage: 2 2/3
+    - id: '9'
+      Name: Feldflöte
+      Lage: '2'
+    - id: '10'
+      Name: Terz
+      Lage: 1 3/5
+    - id: '11'
+      Name: Mixtur
+      label: Mixtur 4f.
+      Choere: '4'
+    - id: '12'
+      Name: Tremulant
+  - Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '1'
+      Name: Rohrgedeckt
+      Lage: '8'
+    - id: '2'
+      Name: Blockflöte
+      Lage: '4'
+    - id: '3'
+      Name: Oktave
+      Lage: '2'
+    - id: '4'
+      Name: Larigot
+      Lage: 1 1/3
+    - id: '5'
+      Name: Oktävlein
+      Lage: '1'
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - id: '13'
+      Name: Subbaß
+      Lage: '16'
+    - id: '14'
+      Name: Oktavbaß
+      Lage: '8'
+    - id: '15'
+      Name: Choralbaß
+      Lage: '4'
+    - id: '16'
+      Name: Holztrompete
+      Lage: '8'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen:
+  - 1998 - Erweiterung durch Orgelbau Reichel, Hochdorf, op. 24
+  Quellen: []
+  Revisionen: []
+- id: org_id017
+  Standort:
+    Kirche: Bricciuskirche
+    Ort: Oberjesingen
+  Erbauer:
+    sortkey: stieglitz
+    Name: Jacob Daniel Stieglitz
+    Ort: Reutlingen
+  Jahr: 1858
+  Klaviaturen:
+  - Name: Manual
+    Umfang: C-f'''
+    Register:
+    - id: '7'
+      Name: Principal
+      Lage: '8'
+      label: Principal 8 F.
+    - id: '9'
+      Name: Gedeckt
+      Lage: '8'
+      label: Gedek 8 F.
+    - id: '5'
+      Name: Flöte
+      Lage: '8'
+      label: Flöte 8 F.
+    - id: '1'
+      Name: Salicional
+      Lage: '8'
+      label: Salicional 8 F.
+    - id: '4'
+      Name: Oktave
+      Lage: '4'
+      label: Oktav 4 F.
+    - id: '11'
+      Name: Flöte
+      Lage: '4'
+      label: Flöte 4 F.
+    - id: '8'
+      Name: Oktave
+      Lage: '2'
+      label: Oktave 2'
+    - id: '2'
+      Name: Mixtur
+      Lage: '2'
+      label: Mixtur 2 F.
+  - Name: Pedal
+    Umfang: C-c'
+    Register:
+    - id: '6'
+      Name: Subbaß
+      Lage: '16'
+      label: Subbaß 16 F.
+    - id: '3'
+      Name: Oktavbaß
+      Lage: '8'
+      label: Oktavbaß 8 F.
+  Koppeln: Pedalkoppel
+  Bemerkungen:
+  - Registerschweller
+  - Windventil
+  - Kegellade
+  - 1993 - Restaurierung durch Firma Rohlf, Neubulach
+  Quellen:
+  - ms, Broschüre "Ausgewählte Orgeln in der Region Stuttgart"
+  Revisionen:
+  - Datum: 2004/12/05
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id018
+  Standort:
+    Kirche: Nikolauskirche
+    Ort: Deckenpfronn
+  Erbauer:
+    sortkey: weigle_deckenpfronn
+    Name: Friedrich Weigle Orgelbau
+    Ort: Echterdingen
+    opus: 935
+  Jahr: 1953
+  Klaviaturen:
+  - Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '3'
+      Name: Holzflötenprincipal
+      Lage: '8'
+    - id: '8'
+      Name: Weidenpfeife
+      Lage: '8'
+    - id: '4'
+      Name: Oktave
+      Lage: '4'
+    - id: '9'
+      Name: Waldflöte
+      Lage: '2'
+    - id: '5'
+      Name: Mixtur
+      label: Mixtur 4-5f.
+      Choere: 4-5
+  - Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - id: '10'
+      Name: Gedeckt
+      Lage: '8'
+    - id: '11'
+      Name: Rohrflöte
+      Lage: '4'
+    - id: '14'
+      Name: Principal
+      Lage: '2'
+    - id: '12'
+      Name: Terzian
+      label: Terzian 2f.
+      Choere: '2'
+    - id: '15'
+      Name: Zimbel
+      label: Zimbel 2f.
+      Choere: '2'
+    - id: '13'
+      Name: Tremulant
+  - Name: Pedal
+    Umfang: C-f'
+    Register:
+    - id: '1'
+      Name: Subbaß
+      Lage: '16'
+    - id: '2'
+      Name: Gedecktbaß
+      Lage: '8'
+    - id: '6'
+      Name: Hohlflöte
+      Lage: '4'
+    - id: '7'
+      Name: Nachthorn
+      Lage: '2'
+  Koppeln: II/I, I/P, II/P
+  Bemerkungen: []
+  Quellen: []
+  Revisionen:
+  - Datum: 2005/01/01
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id019
+  Standort:
+    Kirche: Evang. Kirche
+    Ort: Affstätt
+  Erbauer:
+    sortkey: mühleisen
+    Name: Werkstätte für Orgelbau Mühleisen
+    Ort: Leonberg
+  Jahr: 1995
+  Klaviaturen:
+  - order: '1'
+    Name: Hauptwerk
+    Umfang: C-d'''
+    Register:
+    - id: '1'
+      Name: Principal
+      Lage: '8'
+    - id: '2'
+      Name: Bourdon
+      Lage: '8'
+    - id: '3'
+      Name: Octave
+      Lage: '4'
+    - id: '4'
+      Name: Mixtur
+      Lage: '2'
+    - id: '5'
+      Name: Trompetenregal
+      Lage: '8'
+  - order: '2'
+    Name: Oberwerk
+    Umfang: C-d'''
+    Register:
+    - id: '8'
+      Name: Gedeckt
+      Lage: '8'
+    - id: '9'
+      Name: Rohrflöte
+      Lage: '4'
+    - id: '10'
+      Name: Flöte
+      Lage: '2'
+    - id: '11'
+      Name: Quinte
+      Lage: 2 2/3
+    - id: '12'
+      Name: Terz
+      Lage: 1 3/5
+    - id: '13'
+      Name: Quinte
+      Lage: 1 1/3
+    - id: '14'
+      Name: Tremulant
+  - order: P
+    Name: Pedal
+    Umfang: C-d'
+    Register:
+    - id: '6'
+      Name: Subbaß
+      Lage: '16'
+    - id: '7'
+      Name: Gedacktbaß
+      Lage: '8'
+  Koppeln: II/I, I/II, I/P, II/P
+  Bemerkungen:
+  - Schleifladen, mechanische Traktur
+  Quellen: []
+  Revisionen:
+  - Datum: 2005/06/29
+    Autor: ms
+    Beschreibung: neu erfasst
+- id: org_id020
+  Standort:
+    Kirche: St.-Veit-Kirche
+    Ort: Gärtringen
+  Erbauer:
+    sortkey: rensch_gärtringen
+    Name: Orgelbau Rensch
+    Ort: Lauffen/Neckar
+    opus: 150
+  Jahr: 1988
+  Klaviaturen:
+  - order: '1'
+    Name: I. Manual
+    Umfang: C-g'''
+    Register:
+    - Name: Principal
+      Lage: '8'
+    - Name: Großgedeckt
+      Lage: '8'
+    - Name: Flöte
+      Lage: '8'
+      Bemerkung: ab c0
+    - Name: Bifara
+      Lage: '8'
+      Bemerkung: ab f0
+    - Name: Octave
+      Lage: '4'
+    - Name: Kleingedeckt
+      Lage: '4'
+    - Name: Quinte
+      Lage: 2/3
+    - Name: Octave
+      Lage: '2'
+    - Name: Mixtur
+      Lage: 1 1/3
+      Choere: '4'
+    - Name: Trompete
+      Lage: '8'
+  - order: '2'
+    Name: II. Manual
+    Umfang: C-g'''
+    Register:
+    - Name: Gedeckt
+      Lage: '8'
+    - Name: Quintade
+      Lage: '8'
+    - Name: Principal
+      Lage: '4'
+    - Name: Rohrflöte
+      Lage: '4'
+    - Name: Sesquialter
+      Lage: 2 2/3
+      Choere: '2'
+    - Name: Doublette
+      Lage: '2'
+    - Name: Larigot
+      Lage: 1 1/3
+    - Name: Scharff
+      Lage: '1'
+      Choere: '4'
+    - Name: Cromorne
+      Lage: '8'
+    - Name: Tremulant
+  - order: '3'
+    Name: III. Basswerk
+    Umfang: C-g'''
+    Register:
+    - Name: Bourdon
+      Lage: '16'
+    - Name: Octav
+      Lage: '8'
+    - Name: Spitzflöte
+      Lage: '8'
+    - Name: Choral
+      Lage: '4'
+    - Name: Hohlflöte
+      Lage: '2'
+    - Name: Fagott
+      Lage: '16'
+  - order: P
+    Name: Großpedal
+    Umfang: C-f'
+    Register:
+    - Name: Untersatz
+      Lage: '32'
+    - Name: Kontrabass
+      Lage: '16'
+    - Name: Subbass
+      Lage: '16'
+    - Name: Violon
+      Lage: '8'
+    - Name: Gedecktbass
+      Lage: '8'
+    - Name: Posaune
+      Lage: '8'
+    - Name: Trompete
+      Lage: '4'
+  Koppeln: II/I, III/I, I/P, II/P, III/P
+  Bemerkungen:
+  - |-
+    Schleifladen mit mechanischer Traktur,
+    zusätzlich elektrische Registertraktur mit Setzeranlage (12000 Kombinationen)
+  - 'Gehäuse: J. S. Haußdörfer von 1762'
+  - 2010 - Renoviert und erweitert durch Firma Rensch, op. 262
+  Quellen:
+  - Online-Werkverzeichnis Rensch
+  Revisionen:
+  - Datum: 2011/11/25
+    Autor: ms
+    Beschreibung: neu erfasst

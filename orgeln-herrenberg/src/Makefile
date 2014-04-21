@@ -34,12 +34,15 @@ html : orgeldb.html $(EINZEL_HTML)
 
 orte.html : orgeldb.xml orte.xsl
 	$(XSLPROC) -o $@ orte.xsl orgeldb.xml
+	@sed -i "s!text/html; charset=UTF-8!text/html; charset=utf-8!" $@
 
 erbauer.html : orgeldb.xml erbauer.xsl
 	$(XSLPROC) -o $@ erbauer.xsl orgeldb.xml
+	@sed -i "s!text/html; charset=UTF-8!text/html; charset=utf-8!" $@
 
 %.html : %.xml orgeldb.xsl
 	$(XSLPROC) -o $@ orgeldb.xsl $<
+	@sed -i "s!text/html; charset=UTF-8!text/html; charset=utf-8!" $@
 
 .PHONY : check
 check :
@@ -59,5 +62,5 @@ wwwdist : all
 
 .PHONY : install
 install : all
-	correctcoding orte.html erbauer.html orgeldb.html $(EINZEL_HTML)
+	#correctcoding orte.html erbauer.html orgeldb.html $(EINZEL_HTML)
 	mv orte.html erbauer.html orgeldb.html $(EINZEL_HTML) $(INST_TARGET)

@@ -29,8 +29,10 @@
 <p><%= bemerkung %></p>
 <% end -%>
 
-<% unless index == orgeln.size - 1 -%>
+<% unless orgeln.size == 1 -%>
 <div class="centered">[<a href="#top">nach oben</a>]</div>
+<% end -%>
+<% unless index == orgeln.size - 1 -%>
 <hr>
 <% end -%>
 <% end %>

@@ -9,7 +9,7 @@ OUTPUT_DIR = "db"
 ORTE_TEMPLATE = "orte.html.erb"
 PAGE_TEMPLATE = "layout.html.erb"
 ERBAUER_TEMPLATE = "erbauer.html.erb"
-ORGELDB_TEMPLATE = "orgeldb.html.erb"
+ORGELN_TEMPLATE = "dispositionen.html.erb"
 
 orgel_sammlung = OrgelSammlung.yaml_load("orgeldb.yaml")
 
@@ -51,7 +51,7 @@ File.open(OUTPUT_DIR + "/" + ERBAUER_TEMPLATE.gsub(/\.erb/, ""), "w") {|f| f.put
 orgeln = orgel_sammlung.sort_by_location
 page_title = "Orgeln in Herrenberg"
 
-orgel_template = ERB.new(File.read(ORGELDB_TEMPLATE), 0, '%<>-')
+orgel_template = ERB.new(File.read(ORGELN_TEMPLATE), 0, '%<>-')
 
 ## alle
 
@@ -59,7 +59,7 @@ page_content = orgel_template.result(binding)
 page = page_template.result(binding)
 page.gsub!(/ +$/, "")
 page.gsub!(/^ +/, "")
-File.open(OUTPUT_DIR + "/" + ORGELDB_TEMPLATE.gsub(/\.erb/, ""), "w") {|f| f.puts page }
+File.open(OUTPUT_DIR + "/orgeldb.html", "w") {|f| f.puts page }
 
 ## einzeln
 

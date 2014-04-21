@@ -38,7 +38,7 @@ class OrgelSammlung
   extend Forwardable
 
   attr_accessor :records
-  def_delegators :@records, :[], :each
+  def_delegators :@records, :[], :each, :each_with_index, :size
 
   def self.yaml_load(filename)
     orgel_array = YAML.load File.read(filename)

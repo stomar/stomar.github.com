@@ -9,9 +9,8 @@
   <% umfang = klaviatur["Umfang"] ? " (#{klaviatur["Umfang"]})" : "" -%>
   <td>
     <table cellspacing="5">
-      <tr><th colspan="2" align="left">
-        <%= name + umfang %>
-      </th></tr>
+      <tr><th colspan="2" align="left"><%= name + umfang %></th></tr>
+
       <% klaviatur["Register"].each do |reg| -%>
       <% name = (reg["Name"] == "Tremulant" ? "<em>Tremulant</em>" : reg["Name"]) -%>
       <% choere = reg["Choere"] ? " " + reg["Choere"] + "f." : "" -%>
@@ -32,7 +31,6 @@
 
 <% unless index == orgeln.size - 1 -%>
 <div class="centered">[<a href="#top">nach oben</a>]</div>
-
 <hr>
 <% end -%>
 <% end %>

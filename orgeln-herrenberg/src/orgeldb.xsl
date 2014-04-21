@@ -35,6 +35,7 @@
         <xsl:for-each select="Orgeldatenbank">
           <xsl:for-each select="Orgel">
             <xsl:sort select="Standort/Ort"/>
+            <xsl:sort select="Standort/Name"/>
             <xsl:apply-templates select="."/>
 
             <div class="centered">[<a href="#top">nach oben</a>]</div>

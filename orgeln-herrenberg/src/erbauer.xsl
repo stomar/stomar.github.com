@@ -38,6 +38,7 @@
           <ul>
             <xsl:for-each select="Orgel">
               <xsl:sort select="Orgelbauer/@sortkey"/>
+              <xsl:sort select="Standort/Ort"/>
               <xsl:apply-templates select="." mode="Erbauer"/>
             </xsl:for-each>
           </ul>

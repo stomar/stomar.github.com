@@ -38,4 +38,4 @@ Verfügbare Texte (alphabetisch nach Autor):
 Ich bin der Überzeugung, dass durch die
 Inhalte auf dieser Seite keine Urheberrechte verletzt werden. Sollten
 Sie anderer Meinung sein, so lassen Sie mich das bitte wissen.
-{: .disclaimer}
+{:.disclaimer}

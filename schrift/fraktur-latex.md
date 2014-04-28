@@ -50,6 +50,7 @@ Ein etwas längerer Text in der Alten Schwabacher:
 [Ein Schildbürgerstreich](Die_Schildbuerger_bauen_ein_Rathaus_a5.pdf){:pdf} (PDF, 38 KB)
 
 Weitere Beispiele:
+
 -   [E-Books in Fraktur](ebooks.html)
 -   Noten in Fraktur (gesetzt mit GNU LilyPond):
     * [Nun ruhen alle Wälder](/musik/noten/nun_ruhen.pdf){:pdf} (PDF, 32 KB)
@@ -92,8 +93,8 @@ Nachteile:
   und hochmotivierte &raquo;Community&laquo; von LaTeX-Benutzern.
 
 Ein guter Startpunkt für Informationen zu LaTeX ist die
-[Hilfeseite (DE-TeX-FAQ)](http://www.dante.de/faq/de-tex-faq/html/de-tex-faq.html){.de}
-der deutschen Anwendervereinigung [DANTE](http://www.dante.de/){.de}.
+[Hilfeseite (DE-TeX-FAQ)](http://www.dante.de/faq/de-tex-faq/html/de-tex-faq.html){:.de}
+der deutschen Anwendervereinigung [DANTE](http://www.dante.de/){:.de}.
 
 
 ## Verfügbare Pakete ##
@@ -114,7 +115,7 @@ für verschiedene Fonts zur Verfügung stellen:
   (siehe nächster Punkt). Es ist leicht zu installieren, und umfasst
   eine wachsende Auswahl von Schriftarten.
   <br />
-  _Quelle:_ [www.gaehrken.de/fraktur](http://www.gaehrken.de/fraktur/){.de}
+  _Quelle:_ [www.gaehrken.de/fraktur](http://www.gaehrken.de/fraktur/){:.de}
 
 - fraktur
   <br />
@@ -124,7 +125,7 @@ für verschiedene Fonts zur Verfügung stellen:
   zu Problemen mit einigen Adobe-Schriftarten (Times, Helvetica, Palatino,
   Courier) kommen.
   <br />
-  _Quelle:_ [user.uni-frankfurt.de/~muehlich/tex/texindex.html](http://user.uni-frankfurt.de/~muehlich/tex/texindex.html){.de}
+  _Quelle:_ [user.uni-frankfurt.de/~muehlich/tex/texindex.html](http://user.uni-frankfurt.de/~muehlich/tex/texindex.html){:.de}
 
 - yfonts / oldgerm
   <br />
@@ -135,7 +136,7 @@ für verschiedene Fonts zur Verfügung stellen:
   Dieselben Schriften können allerdings weitaus
   komfortabler mit dem Paket frakturx verwendet werden.
   <br />
-  _Quelle:_ [www.ctan.org](http://www.ctan.org/){.de}
+  _Quelle:_ [www.ctan.org](http://www.ctan.org/){:.de}
 
 Weitere allgemeine Informationen zum Fraktursatz, Beispieltexte und
 detailliertere Vergleiche der verschiedenen Pakete finden sich bei den

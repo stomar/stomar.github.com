@@ -1,3 +1,55 @@
+class Register
+
+  attr_reader :id, :name, :lage, :choere, :bemerkung, :vorabzug_von
+
+  def initialize(data)
+    @id = data["id"]
+    @name = data["Name"]
+    @lage = data["Lage"]
+    @label = data["label"]
+    @choere = data["Choere"]
+    @bemerkung = data["Bemerkung"]
+    @vorabzug_von = data["Vorabzug_von"]
+  end
+
+  def tremulant?
+    name == "Tremulant"
+  end
+
+  def info
+    info = name.dup
+    info << " " << choere << "f."  if choere
+    info << " (Vorabzug)"  if vorabzug_von
+
+    info
+  end
+
+  def lage_mit_fuss
+    lage ? (lage + "'") : ""
+  end
+end
+
+class Klaviatur
+
+  attr_reader :order, :name, :umfang, :register
+
+  def initialize(data)
+    @order = data["order"]
+    @name = data["Name"]
+    @umfang = data["Umfang"]
+    @register = []
+
+    data["Register"].each do |register_data|
+      @register << Register.new(register_data)
+    end
+  end
+
+  def info
+    umfang ? "#{name} (#{umfang})" : name
+  end
+end
+
+
 class Orgel
 
   attr_reader :id, :standort, :erbauer, :jahr, :klaviaturen, :koppeln,
@@ -8,11 +60,15 @@ class Orgel
     @standort = data["Standort"]
     @erbauer = data["Erbauer"]
     @jahr = data["Jahr"]
-    @klaviaturen = data["Klaviaturen"]
+    @klaviaturen = []
     @koppeln = data["Koppeln"]
     @bemerkungen = data["Bemerkungen"]
     @quellen = data["Quellen"]
     @revisionen = data["Revisionen"]
+
+    data["Klaviaturen"].each do |klaviatur_data|
+      @klaviaturen << Klaviatur.new(klaviatur_data)
+    end
   end
 
   def to_s

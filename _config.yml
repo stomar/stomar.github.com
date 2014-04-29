@@ -3,3 +3,6 @@ auto:        true
 server:      true
 server_port: 4000
 markdown:    kramdown
+
+kramdown:
+  auto_ids: false

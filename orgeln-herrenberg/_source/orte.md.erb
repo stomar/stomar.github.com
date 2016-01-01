@@ -1,0 +1,12 @@
+---
+layout: main-orgeldb
+title: <%= title %>
+---
+
+# Dispositionen nach Ortschaften geordnet #
+
+<% orgeln.each do |orgel| -%>
+<% ort = orgel.standort["Ort"] -%>
+<% kirche = orgel.standort["Kirche"] -%>
+* [<%= "#{ort} (#{kirche})" %>](<%= orgel.id %>.html)
+<% end -%>

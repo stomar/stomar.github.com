@@ -1,0 +1,13 @@
+---
+layout: main-orgeldb
+title: <%= title %>
+---
+
+# Dispositionen nach Erbauer geordnet #
+
+<% orgeln.each do |orgel| -%>
+<% erbauer = ERB::Util.html_escape(orgel.erbauer["Name"]) -%>
+<% ort = orgel.standort["Ort"] -%>
+<% kirche = orgel.standort["Kirche"] -%>
+* <%= erbauer %> ([<%= "#{ort}, #{kirche}" %>](<%= orgel.id %>.html))
+<% end -%>

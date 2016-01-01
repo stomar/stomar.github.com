@@ -6,10 +6,10 @@ require "erb"
 require_relative "orgel"
 
 OUTPUT_DIR = "../db"
-orte_template = ERB.new(File.read("orte.html.erb"), 0, '%<>-')
-orte_outfile  = "orte.html"
-erbauer_template = ERB.new(File.read("erbauer.html.erb"), 0, '%<>-')
-erbauer_outfile  = "erbauer.html"
+orte_template = ERB.new(File.read("orte.md.erb"), 0, '%<>-')
+orte_outfile  = "orte.md"
+erbauer_template = ERB.new(File.read("erbauer.md.erb"), 0, '%<>-')
+erbauer_outfile  = "erbauer.md"
 orgeln_template = ERB.new(File.read("dispositionen.html.erb"), 0, '%<>-')
 orgeln_outfile  = "orgeldb.html"
 

@@ -5,7 +5,7 @@ require "erb"
 
 require_relative "orgel"
 
-OUTPUT_DIR = "db"
+OUTPUT_DIR = "../db"
 PAGE_TEMPLATE = ERB.new(File.read("layout.html.erb"), 0, '%<>-')
 orte_template = ERB.new(File.read("orte.html.erb"), 0, '%<>-')
 orte_outfile  = "orte.html"

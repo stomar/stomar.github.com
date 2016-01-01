@@ -1,0 +1,16 @@
+require "fileutils"
+
+SOURCEDIR = "_source"
+TARGETDIR = "db"
+TARGETDIR_OLD = "#{TARGETDIR}_old"
+
+task :default => [:build]
+
+desc "Generate orgeldb HTML files"
+task :build do
+  FileUtils.rm_rf TARGETDIR_OLD  if File.exist?(TARGETDIR_OLD)
+  FileUtils.mv TARGETDIR, TARGETDIR_OLD  if File.exist?(TARGETDIR)
+  Dir.chdir SOURCEDIR do
+    sh "create_html.rb"
+  end
+end

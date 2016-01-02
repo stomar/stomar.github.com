@@ -1,98 +1,115 @@
-body {
-  margin-left:5%;
-  margin-right:5%;
-  color:#330000;
-  background-color:#EEEEEE;
-  font-family:sans-serif;
-}
-
-h1,h2,h3 {
-  margin-top:5%;
-}
+/*** reset ***/
 
 img {
-  border-width:0px;
+  border-width: 0px;
 }
 
-ol, ul {
-  line-height:130%;
+/*** fonts and colors ***/
+
+body {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+body {
+  color: #300;
+}
+
+/*** main page structure ***/
+
+nav {
+  background-color: #8b4513; /* saddlebrown */
 }
 
 footer {
-  font-size:small;
+  font-size: small;
 }
 
 footer img.right {
-  float:right;
+  float: right;
 }
 
-.centered {
-  text-align:center
+/*** padding and margins ***/
+
+body {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-/* link list */
-
-.linklist li {
-  margin-top:10pt;
+h1, h2, h3 {
+  margin-top: 5%;
 }
 
-.linklist li:first-line {
-  font-weight:bold;
+ol, ul {
+  line-height: 130%;
 }
 
-.linklist a {
-  font-family:sans-serif;
-  font-size:small
-}
-
-/* navigation bar */
+/*** navigation bar ***/
 
 nav {
-  background-color:#8B4513; /* saddlebrown */
-  font-weight:bold;
-  list-style-type:none;
-  text-align:center;
+  font-weight: bold;
+  list-style-type: none;
+  text-align: center;
 }
 
 nav ul {
-  padding:5px 0;
+  padding: 5px 0;
 }
 
 nav li {
-  display:inline;
-  padding:5px 20px;
-  white-space:nowrap;
+  display: inline;
+  white-space: nowrap;
+  padding: 5px 20px;
 }
 
 nav a:link, nav a:visited {
-  color:white;
-  text-decoration:none;
+  color: white;
+  text-decoration: none;
 }
 
 nav a:hover {
-  color:white;
-  text-decoration:underline;
-}
-
-nav a:active {
-  color:red;
-  text-decoration:underline;
+  color: white;
+  text-decoration: underline;
 }
 
 nav a:focus {
-  color:#FFD700; /* gold */
-  text-decoration:underline;
+  color: #ffd700; /* gold */
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: red;
+  text-decoration: underline;
 }
 
 .hidden {
-  display:none;
+  display: none;
 }
 
-/* disclaimer */
+/*** classes ***/
+
+.centered {
+  text-align: center;
+}
+
+.linklist li {
+  margin-top: 10pt;
+}
+
+.linklist li:first-line {
+  font-weight: bold;
+}
+
+.linklist a {
+  font-size: small;
+}
 
 p.disclaimer {
-  margin-top:5em;
-  margin-left:3em;
-  margin-right:3em;
-  font-size:0.6em;
+  margin-top: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-size: 0.6em;
 }

@@ -1,7 +1,7 @@
 ---
 layout: main-orgeldb
 title: Orgeln in Herrenberg
-date: 2011-11-25
+date: 2016-01-02
 ---
 
 # Orgeln in Herrenberg #

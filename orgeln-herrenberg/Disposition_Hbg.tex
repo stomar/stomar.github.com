@@ -1,8 +1,9 @@
-\documentclass[a4paper,12pt,halfparskip]{scrartcl}
+\documentclass[a4paper,12pt,parskip=half]{scrartcl}
 
 \usepackage{ngerman}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+
+%\usepackage{cmbright}
 
 % Times / Helvetica
 %\usepackage{mathptmx}
@@ -20,27 +21,16 @@
 %%%% Bitte ganz am Schluß unterbringen,
 %%%% da viele Befehle neu definiert werden
 
-%\usepackage{ae}       % zur Suche nach Worten mit Umlaut noetig
-\usepackage[ps2pdf,
-            bookmarks=false,
-            bookmarksopen=false,%    Bookmarks anzeigen...
-            bookmarksnumbered=false,% ...und numerieren
-            colorlinks,%             farbige Links
-            %plainpages=false,
-            pagebackref=false,
-            linkcolor=red,
-            urlcolor=blue,
-            breaklinks=false,
-            pdfpagemode={None},
+\usepackage[pdftitle={Disposition der Orgel in der Stiftskirche Herrenberg},
             pdfauthor={Marcus Stollsteimer},
-            pdftitle={Disposition der Orgel in der Stiftskirche Herrenberg},
             pdfsubject={},
             pdfkeywords={},
+            pdfpagemode=UseNone,
+            pdfstartview=FitH,% Fit Width
+            bookmarks=false,
             pdfcreator={LaTeX with hyperref package},
-            pdfproducer={dvips + ps2pdf},%
+            pdfproducer={dvips + ps2pdf}%
            ]{hyperref}
-%\usepackage[dvips]{thumbpdf}
-
 
 \setlength{\parindent}{0pt}
 

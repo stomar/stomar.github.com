@@ -177,6 +177,22 @@ nav .hidden {
   font-size: small;
 }
 
+table.disposition th, table.disposition td {
+  padding: 10px;
+}
+
+table.klaviatur th, table.klaviatur td {
+  padding: 2.5px;
+}
+
+table.disposition tr {
+  vertical-align: top;
+}
+
+table.klaviatur th {
+  text-align: left;
+}
+
 a.de {
   padding-right: 20px;
   background: url("images/de.gif") right center no-repeat;

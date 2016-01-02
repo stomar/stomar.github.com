@@ -8,11 +8,11 @@ title: <%= title %>
 
 <p><%= ERB::Util.html_escape(orgel.full_builder_info) %></p>
 
-<table cellspacing="20"><tr valign="top">
+<table class="disposition"><tr>
   <% orgel.klaviaturen.each do |klaviatur| %>
   <td>
-    <table cellspacing="5">
-      <tr><th colspan="2" align="left"><%= klaviatur.info %></th></tr>
+    <table class="klaviatur">
+      <tr><th colspan="2"><%= klaviatur.info %></th></tr>
 
       <% klaviatur.register.each do |reg| -%>
       <% if reg.tremulant? -%>

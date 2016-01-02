@@ -24,7 +24,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*** general behavior ***/
 
 /* force a vertical scrollbar to prevent a jumpy page */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* focus: outline visible for users tabbing through the page
 a { outline: none; }
@@ -38,20 +40,33 @@ abbr[title], dfn[title] {
 /*** fonts and colors ***/
 
 /* Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
-body { font-family: Helmet, Freesans, sans-serif; }
+body {
+  font-family: Helmet, Freesans, sans-serif;
+}
 
-body { background-color: #f8f8ff; } /* ghostwhite */
+body {
+  background-color: #f8f8ff; /* ghostwhite */
+}
 
 body, select, input, textarea {
   color: #333;
 }
 
-h1 { font-size: larger; }
+h1 {
+  font-size: larger;
+}
 
-a { color: #03f; }
-a:hover { color: #69f; }
+a {
+  color: #03f;
+}
 
-body > footer a, a:hover, a:focus { color: #333; }
+a:hover {
+  color: #69f;
+}
+
+body > footer a, a:hover, a:focus {
+  color: #333;
+}
 
 /*** main page structure ***/
 
@@ -94,7 +109,7 @@ body > footer img.right {
   float: right;
 }
 
-/*** Padding and margins ***/
+/*** padding and margins ***/
 
 h1, h2, h3, h4, h5, h6 {
   padding: 1ex 0;
@@ -139,20 +154,20 @@ nav ul, nav li {
 }
 
 nav {
-  font-weight:bold;
-  list-style-type:none;
-  text-align:center;
+  font-weight: bold;
+  list-style-type: none;
+  text-align: center;
 }
 
 nav li {
-  display:inline;
-  white-space:nowrap;
+  display: inline;
+  white-space: nowrap;
   padding: 0 1.5em;
 }
 
 nav a {
-  color:#777;
-  text-decoration:none;
+  color: #777;
+  text-decoration: none;
 
   -moz-transition: color 500ms linear;
   -o-transition: color 500ms linear;
@@ -161,11 +176,11 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-  color:#333;
+  color: #333;
 }
 
 nav li.selected a {
-  color:#333;
+  color: #333;
 }
 
 nav .hidden {
@@ -185,10 +200,10 @@ a.en {
 }
 
 p.disclaimer {
-  margin-top:3em;
-  margin-left:3em;
-  margin-right:3em;
-  font-size:0.6em;
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-size: 0.6em;
 }
 
 /*** print styles ***/

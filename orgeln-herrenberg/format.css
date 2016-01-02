@@ -18,11 +18,11 @@ ol, ul {
   line-height:130%;
 }
 
-address {
+footer {
   font-size:small;
 }
 
-address img.right {
+footer img.right {
   float:right;
 }
 
@@ -45,38 +45,41 @@ address img.right {
   font-size:small
 }
 
-/* navigation bar (ul class="nav") */
+/* navigation bar */
 
-.nav {
+nav {
   background-color:#8B4513; /* saddlebrown */
   font-weight:bold;
   list-style-type:none;
   text-align:center;
-  padding:5px;
 }
 
-.nav li {
+nav ul {
+  padding:5px 0;
+}
+
+nav li {
   display:inline;
   padding:5px 20px;
   white-space:nowrap;
 }
 
-.nav a:link, .nav a:visited {
+nav a:link, nav a:visited {
   color:white;
   text-decoration:none;
 }
 
-.nav a:hover {
+nav a:hover {
   color:white;
   text-decoration:underline;
 }
 
-.nav a:active {
+nav a:active {
   color:red;
   text-decoration:underline;
 }
 
-.nav a:focus {
+nav a:focus {
   color:#FFD700; /* gold */
   text-decoration:underline;
 }

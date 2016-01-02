@@ -22,7 +22,7 @@ address {
   font-size:small;
 }
 
-address img {
+address img.right {
   float:right;
 }
 

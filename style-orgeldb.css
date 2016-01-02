@@ -4,31 +4,69 @@ img {
   border-width: 0px;
 }
 
+/*** general behavior ***/
+
+/* force a vertical scrollbar to prevent a jumpy page */
+html {
+  overflow-y: scroll;
+}
+
+/* focus: outline visible for users tabbing through the page
+a { outline: none; }
+a:focus { outline: red thin dotted; } */
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #333;
+  cursor: help;
+}
+
 /*** fonts and colors ***/
 
+/* Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
 body {
-  font-family: sans-serif;
+  font-family: Helmet, Freesans, sans-serif;
 }
 
 body {
-  background-color: #eee;
+  background-color: #f8f8ff; /* ghostwhite */
 }
 
-body {
-  color: #300;
+body, select, input, textarea {
+  color: #333;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+a {
+  color: #03f;
+}
+
+a:hover {
+  color: #69f;
+}
+
+body > footer a, a:hover, a:focus {
+  color: #333;
 }
 
 /*** main page structure ***/
 
-nav {
+body > nav {
   background-color: #8b4513; /* saddlebrown */
+  background: -moz-linear-gradient(top, #8b4513, #a62);
+  background: -ms-linear-gradient(top, #8b4513, #a62);
+  background: -o-linear-gradient(top, #8b4513, #a62);
+  background: -webkit-linear-gradient(top, #8b4513, #a62);
+  background: linear-gradient(top, #8b4513, #a62);
 }
 
-footer {
+body > footer {
   font-size: small;
 }
 
-footer img.right {
+body > footer img.right {
   float: right;
 }
 
@@ -44,7 +82,8 @@ h1, h2, h3 {
 }
 
 ol, ul {
-  line-height: 130%;
+  padding: 1ex 0;
+  padding-left: 2em;
 }
 
 /*** navigation bar ***/
@@ -56,36 +95,30 @@ nav {
 }
 
 nav ul {
-  padding: 5px 0;
+  padding: 8px 0;
 }
 
 nav li {
   display: inline;
   white-space: nowrap;
-  padding: 5px 20px;
+  padding: 0 1.5em;
 }
 
-nav a:link, nav a:visited {
+nav a {
   color: white;
   text-decoration: none;
+
+  -moz-transition: color 500ms linear;
+  -o-transition: color 500ms linear;
+  -webkit-transition: color 500ms linear;
+  transition: color 500ms linear;
 }
 
-nav a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-nav a:focus {
+nav a:hover, nav a:focus {
   color: #ffd700; /* gold */
-  text-decoration: underline;
 }
 
-nav a:active {
-  color: red;
-  text-decoration: underline;
-}
-
-.hidden {
+nav .hidden {
   display: none;
 }
 
@@ -108,8 +141,17 @@ nav a:active {
 }
 
 p.disclaimer {
-  margin-top: 5em;
+  margin-top: 3em;
   margin-left: 3em;
   margin-right: 3em;
   font-size: 0.6em;
+}
+
+/*** print styles ***/
+@media print {
+
+  body > nav {
+    display: none;
+  }
+
 }

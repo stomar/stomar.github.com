@@ -8,13 +8,13 @@ date: 2006-01-27
 
 - Kirchenmusik im evang. Kirchenbezirk Herrenberg<br>
   aktuelle Informationen zu Konzerten im Bezirk<br>
-  [www.evangelischer-kirchenbezirk-herrenberg.de/kirchenmusik/](http://www.evangelischer-kirchenbezirk-herrenberg.de/kirchenmusik/)
+  [www.evangelischer-kirchenbezirk-herrenberg.de/kirchenmusik/](http://www.evangelischer-kirchenbezirk-herrenberg.de/kirchenmusik/){:.de}
 
 - Bund Deutscher Orgelbaumeister e.V. (BDO)<br>
-  [www.b-d-o.de/](http://www.b-d-o.de/)
+  [www.b-d-o.de/](http://www.b-d-o.de/){:.de}
 
 - Gesellschaft der Orgelfreunde (GdO)<br>
-  [www.gdo.de/](http://www.gdo.de/)
+  [www.gdo.de/](http://www.gdo.de/){:.de}
 {: .linklist}
 
 **Erklärung:** Die Links auf dieser Seite verweisen

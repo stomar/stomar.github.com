@@ -85,6 +85,14 @@ class Orgel
 
     info
   end
+
+  def last_modified
+    return  if (revisionen.nil? || revisionen.empty?)
+
+    dates = revisionen.map {|rev| rev["Datum"] }
+
+    dates.sort.last
+  end
 end
 
 

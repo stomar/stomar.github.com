@@ -38,6 +38,7 @@ Dir.mkdir(OUTPUT_DIR)
 
 title = "Orgeln in Herrenberg / Ortschaften"
 orgeln = orgel_sammlung.sort_by_location
+last_modified = nil
 
 render_and_save(orte_template, binding, outfile: orte_outfile)
 
@@ -45,6 +46,7 @@ render_and_save(orte_template, binding, outfile: orte_outfile)
 
 title = "Orgeln in Herrenberg / Orgelbauer"
 orgeln = orgel_sammlung.sort_by_builder
+last_modified = nil
 
 render_and_save(erbauer_template, binding, outfile: erbauer_outfile)
 
@@ -52,6 +54,7 @@ render_and_save(erbauer_template, binding, outfile: erbauer_outfile)
 
 title = "Orgeln in Herrenberg"
 orgeln = orgel_sammlung.sort_by_location
+last_modified = nil
 
 ## alle
 
@@ -61,6 +64,7 @@ render_and_save(orgeln_template, binding, outfile: orgeln_outfile)
 
 orgel_sammlung.each do |orgel|
   orgeln  = OrgelSammlung.new([orgel])
+  last_modified = orgel.last_modified
   outfile = "#{orgel.id}.html"
 
   render_and_save(orgeln_template, binding, outfile: outfile)

@@ -1,13 +1,18 @@
 ---
 layout: main
 title: Computer
-date: 2014-01-01
+date: 2016-01-08
 ---
 
 [Ruby]: http://www.ruby-lang.org/
 [LaTeX]: http://de.wikipedia.org/LaTeX
 
-Einige kleine Programmierprojekte in [Ruby][Ruby], [LaTeX][LaTeX] und HTML.
+Einige Programmierprojekte in [Ruby][Ruby], [LaTeX][LaTeX] und HTML.
+
+[lanyon](https://github.com/stomar/lanyon/) (Ruby)
+
+  : Ein Tool, das eine Jekyll-basierte statische Website
+    in eine Rack-Applikation verwandelt.
 
 [pnm](https://github.com/stomar/pnm/) (Ruby)
 

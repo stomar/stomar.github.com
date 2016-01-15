@@ -132,11 +132,9 @@ dd {
 }
 
 pre {
-  padding: 1ex 0;
-  text-indent: 2em;
+  padding: 1ex 1em;
   white-space: pre; /* CSS2 */
   white-space: pre-wrap; /* CSS 2.1 */
-  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
 }
 
 /*** navigation bar ***/

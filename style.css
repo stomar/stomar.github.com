@@ -72,8 +72,8 @@ body > footer a, a:hover, a:focus {
 
 body > header {
   padding: 10px 0px 0px 5%;
-  background-color: #cdf;
   color: #777;
+  background-color: #cdf;
 }
 
 body > header h1 {
@@ -84,11 +84,10 @@ body > header h1 {
 body > nav {
   padding: 0px 5px 20px 5px;
   background-color: #cdf;
-  background: -moz-linear-gradient(top, #cdf, #f8f8ff);
-  background: -ms-linear-gradient(top, #cdf, #f8f8ff);
-  background: -o-linear-gradient(top, #cdf, #f8f8ff);
   background: -webkit-linear-gradient(top, #cdf, #f8f8ff);
-  background: linear-gradient(top, #cdf, #f8f8ff);
+  background:    -moz-linear-gradient(top, #cdf, #f8f8ff);
+  background:      -o-linear-gradient(top, #cdf, #f8f8ff);
+  background:         linear-gradient(to bottom, #cdf, #f8f8ff);
 }
 
 body > section {
@@ -169,9 +168,6 @@ nav a {
   color: #777;
   text-decoration: none;
 
-  -moz-transition: color 500ms linear;
-  -o-transition: color 500ms linear;
-  -webkit-transition: color 500ms linear;
   transition: color 500ms linear;
 }
 

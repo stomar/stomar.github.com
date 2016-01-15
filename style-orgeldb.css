@@ -75,12 +75,8 @@ body {
 }
 
 body > nav {
-  margin: 2ex 0px 4ex 0px;
-  background-color: #8b4513; /* saddlebrown */
-  background: -webkit-linear-gradient(top, #8b4513, #a62);
-  background:    -moz-linear-gradient(top, #8b4513, #a62);
-  background:      -o-linear-gradient(top, #8b4513, #a62);
-  background:         linear-gradient(to bottom, #8b4513, #a62);
+  margin-top: 2ex;
+  margin-bottom: 4ex;
 }
 
 body > hr {
@@ -88,7 +84,18 @@ body > hr {
 }
 
 body > footer {
-  padding: 5px 0;
+  padding-top: 5px;
+}
+
+body > nav {
+  background-color: #8b4513; /* saddlebrown */
+  background: -webkit-linear-gradient(top, #8b4513, #a62);
+  background:    -moz-linear-gradient(top, #8b4513, #a62);
+  background:      -o-linear-gradient(top, #8b4513, #a62);
+  background:         linear-gradient(to bottom, #8b4513, #a62);
+}
+
+body > footer {
   font-size: small;
 }
 

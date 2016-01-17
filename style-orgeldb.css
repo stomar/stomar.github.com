@@ -70,29 +70,38 @@ body > footer a, a:hover, a:focus {
 
 /*** main page structure ***/
 
-body {
-  margin: 0 5%;
+body > header, body > section, body > footer {
+  padding: 10px 5%;
 }
 
-body > nav {
-  margin-top: 2ex;
+body > header {
   margin-bottom: 4ex;
 }
 
-body > hr {
-  margin-top: 2ex;
+body > header > h1 {
+  padding: 0;
 }
 
 body > footer {
   padding-top: 5px;
 }
 
-body > nav {
+body > header {
+  color: white;
   background-color: #8b4513; /* saddlebrown */
   background: -webkit-linear-gradient(top, #8b4513, #a62);
   background:    -moz-linear-gradient(top, #8b4513, #a62);
   background:      -o-linear-gradient(top, #8b4513, #a62);
   background:         linear-gradient(to bottom, #8b4513, #a62);
+}
+
+body > header > h1 {
+  font-size: 100%;
+}
+
+body > hr {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 body > footer {
@@ -137,10 +146,6 @@ nav {
   text-align: center;
 }
 
-nav ul {
-  padding: 8px 0;
-}
-
 nav li {
   display: inline;
   white-space: nowrap;
@@ -158,8 +163,19 @@ nav a:hover, nav a:focus {
   color: #ffd700; /* gold */
 }
 
-nav .hidden {
-  display: none;
+nav li.selected a {
+  color: #ffd700; /* gold */
+}
+
+a.hidden {
+  position: absolute;
+  left: -1000px;
+}
+
+a.hidden:focus, a.hidden:active, a.hidden:hover {
+  position: absolute;
+  left: 5%;
+  background-color: #f8f8ff;
 }
 
 /*** classes ***/
@@ -216,7 +232,7 @@ p.disclaimer {
 /*** print styles ***/
 @media print {
 
-  body > nav {
+  body > header > nav {
     display: none;
   }
 

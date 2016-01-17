@@ -1,10 +1,8 @@
 ---
 layout: main-orgeldb
 title: Orgeln in Herrenberg
-date: 2016-01-02
+date: 2016-01-17
 ---
-
-# Orgeln in Herrenberg #
 
 Hier finden Sie Dispositionen von Kirchenorgeln in und um Herrenberg.
 

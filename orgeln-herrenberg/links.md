@@ -1,10 +1,8 @@
 ---
 layout: main-orgeldb
-title: Orgeln in Herrenberg / Links
+title: Links
 date: 2006-01-27
 ---
-
-# Links #
 
 - Kirchenmusik im evang. Kirchenbezirk Herrenberg<br>
   aktuelle Informationen zu Konzerten im Bezirk<br>

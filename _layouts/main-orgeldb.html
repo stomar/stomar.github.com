@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="utf-8" />
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} - Orgeln in Herrenberg</title>
   <meta name="author" content="Marcus Stollsteimer" />
   <link rel="author" href="mailto:sto.mar@web.de" />
   <link rel="stylesheet" href="/style-orgeldb.css" />
@@ -16,18 +16,30 @@
 </head>
 <body>
 
+<header id="top">
+<h1>Orgeln in Herrenberg</h1>
+
+<a href="#content" class="hidden">Navigation überspringen</a>
+
 <nav>
 <ul>
-  <li><a id="top"></a><span class="hidden"><a href="#skip">Navigation überspringen</a> | </span>
-  <a href="/orgeln-herrenberg/index.html">Home</a></li>
-  <li><a href="/orgeln-herrenberg/db/orte.html">Orte</a></li>
-  <li><a href="/orgeln-herrenberg/db/erbauer.html">Orgelbauer</a></li>
-  <li><a href="/orgeln-herrenberg/links.html">Links</a></li>
+  <li{% if page.url == "/orgeln-herrenberg/index.html" %} class="selected"{% endif %}><a href="/orgeln-herrenberg/index.html">Home</a></li>
+  <li{% if page.url == "/orgeln-herrenberg/db/orte.html" %} class="selected"{% endif %}><a href="/orgeln-herrenberg/db/orte.html">Orte</a></li>
+  <li{% if page.url == "/orgeln-herrenberg/db/erbauer.html" %} class="selected"{% endif %}><a href="/orgeln-herrenberg/db/erbauer.html">Orgelbauer</a></li>
+  <li{% if page.url == "/orgeln-herrenberg/links.html" %} class="selected"{% endif %}><a href="/orgeln-herrenberg/links.html">Links</a></li>
 </ul>
 </nav>
-<div><a id="skip"></a></div>
+</header>
+
+<section>
+
+<header>
+<h1 id="content">{{ page.title }}</h1>
+</header>
 
 {{ content }}
+
+</section>
 
 <hr>
 <footer>

@@ -86,6 +86,10 @@ class Orgel
     info
   end
 
+  def full_name
+    "Die Orgel der #{standort["Kirche"]} in #{standort["Ort"]}"
+  end
+
   def last_modified
     return  if (revisionen.nil? || revisionen.empty?)
 

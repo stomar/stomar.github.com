@@ -10,6 +10,7 @@ orte_template = ERB.new(File.read("orte.md.erb"), 0, '%<>-')
 orte_outfile  = "orte.md"
 erbauer_template = ERB.new(File.read("erbauer.md.erb"), 0, '%<>-')
 erbauer_outfile  = "erbauer.md"
+orgel_template = ERB.new(File.read("disposition.html.erb"), 0, '%<>-')
 orgeln_template = ERB.new(File.read("dispositionen.html.erb"), 0, '%<>-')
 orgeln_outfile  = "orgeldb.html"
 
@@ -36,7 +37,6 @@ Dir.mkdir(OUTPUT_DIR)
 
 # Orte
 
-title = "Orgeln in Herrenberg / Ortschaften"
 orgeln = orgel_sammlung.sort_by_location
 last_modified = nil
 
@@ -44,7 +44,6 @@ render_and_save(orte_template, binding, outfile: orte_outfile)
 
 # Erbauer
 
-title = "Orgeln in Herrenberg / Orgelbauer"
 orgeln = orgel_sammlung.sort_by_builder
 last_modified = nil
 
@@ -52,7 +51,6 @@ render_and_save(erbauer_template, binding, outfile: erbauer_outfile)
 
 # Dispositionen
 
-title = "Orgeln in Herrenberg"
 orgeln = orgel_sammlung.sort_by_location
 last_modified = nil
 
@@ -63,9 +61,8 @@ render_and_save(orgeln_template, binding, outfile: orgeln_outfile)
 ## einzeln
 
 orgel_sammlung.each do |orgel|
-  orgeln  = OrgelSammlung.new([orgel])
   last_modified = orgel.last_modified
   outfile = "#{orgel.id}.html"
 
-  render_and_save(orgeln_template, binding, outfile: outfile)
+  render_and_save(orgel_template, binding, outfile: outfile)
 end

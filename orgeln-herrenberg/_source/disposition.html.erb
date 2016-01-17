@@ -1,11 +1,8 @@
 ---
 layout: main-orgeldb
-title: Dispositionen (Überblick)
+title: <%= orgel.full_name %>
 date: <%= last_modified || "null" %>
 ---
-
-<% orgeln.each_with_index do |orgel, index| %>
-<h2><%= orgel.full_name %></h2>
 
 <p><%= ERB::Util.html_escape(orgel.full_builder_info) %></p>
 
@@ -32,11 +29,3 @@ date: <%= last_modified || "null" %>
 <% orgel.bemerkungen.each do |bemerkung| -%>
 <p><%= bemerkung %></p>
 <% end -%>
-
-<% unless orgeln.size == 1 -%>
-<div class="centered">[<a href="#top">nach oben</a>]</div>
-<% end -%>
-<% unless index == orgeln.size - 1 -%>
-<hr>
-<% end -%>
-<% end %>

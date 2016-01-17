@@ -13,38 +13,32 @@
 </head>
 <body>
 
-<!-- begin header -->
-
-<header>
+<header id="top">
 <h1>mstollsteimer.de</h1>
-</header>
 
 {% capture urlstring %}{{ page.url | prepend:'BASEURL' }}{% endcapture %}
 
+<a href="#content" class="hidden">Navigation überspringen</a>
+
 <nav>
-<ul id="top">
-  <li{% if page.url == "/index.html" %} class="selected"{% endif %}>
-    <span class="hidden"><a href="#pagetitle">Navigation überspringen</a> | </span>
-    <a href="/index.html">Home</a></li>
+<ul>
+  <li{% if page.url == "/index.html" %} class="selected"{% endif %}><a href="/index.html">Home</a></li>
   <li{% if urlstring contains "BASEURL/schrift/" %} class="selected"{% endif %}><a href="/schrift/index.html">Schrift</a></li>
   <li{% if urlstring contains "BASEURL/musik/" %} class="selected"{% endif %}><a href="/musik/index.html">Musik</a></li>
   <li{% if urlstring contains "BASEURL/computer/" %} class="selected"{% endif %}><a href="/computer/index.html">Computer</a></li>
 </ul>
 </nav>
-
-<!-- begin main body -->
+</header>
 
 <section>
 
 <header>
-<h1 id="pagetitle">{{ page.title }}</h1>
+<h1 id="content">{{ page.title }}</h1>
 </header>
 
 {{ content }}
 
 </section>
-
-<!-- begin footer -->
 
 <hr>
 <footer>

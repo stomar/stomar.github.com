@@ -70,17 +70,16 @@ body > footer a, a:hover, a:focus {
 
 /*** main page structure ***/
 
-body > header, body > nav, body > section, body > footer {
+body > header, body > section, body > footer {
   padding: 10px 5%;
 }
 
 body > header {
-  padding-bottom: 0;
+  padding-bottom: 20px;
 }
 
-body > nav {
-  padding-top: 0;
-  padding-bottom: 20px;
+body > header > h1 {
+  padding: 0;
 }
 
 body > footer {
@@ -90,19 +89,14 @@ body > footer {
 body > header {
   color: #777;
   background-color: #cdf;
+  background: -webkit-linear-gradient(top, #cdf, #cdf, #f8f8ff);
+  background:    -moz-linear-gradient(top, #cdf, #cdf, #f8f8ff);
+  background:      -o-linear-gradient(top, #cdf, #cdf, #f8f8ff);
+  background:         linear-gradient(to bottom, #cdf, #cdf, #f8f8ff);
 }
 
-body > header h1 {
-  padding: 0;
+body > header > h1 {
   font-size: 100%;
-}
-
-body > nav {
-  background-color: #cdf;
-  background: -webkit-linear-gradient(top, #cdf, #f8f8ff);
-  background:    -moz-linear-gradient(top, #cdf, #f8f8ff);
-  background:      -o-linear-gradient(top, #cdf, #f8f8ff);
-  background:         linear-gradient(to bottom, #cdf, #f8f8ff);
 }
 
 body > hr {
@@ -187,8 +181,15 @@ nav li.selected a {
   color: #333;
 }
 
-nav .hidden {
-  display: none;
+a.hidden {
+  position: absolute;
+  left: -1000px;
+}
+
+a.hidden:focus, a.hidden:active, a.hidden:hover {
+  position: absolute;
+  left: 5%;
+  background-color: #f8f8ff;
 }
 
 /*** classes ***/
@@ -213,7 +214,7 @@ p.disclaimer {
 /*** print styles ***/
 @media print {
 
-  body > nav {
+  body > header > nav {
     display: none;
   }
 

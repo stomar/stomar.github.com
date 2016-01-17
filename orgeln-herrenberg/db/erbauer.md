@@ -1,9 +1,7 @@
 ---
 layout: main-orgeldb
-title: Orgeln in Herrenberg / Orgelbauer
+title: Dispositionen nach Erbauer geordnet
 ---
-
-# Dispositionen nach Erbauer geordnet #
 
 * De Graaf / Rensch ([Kuppingen, Stephanuskirche](org_id002.html))
 * Werkstätte für Orgelbau Mühleisen ([Affstätt, Evang. Kirche](org_id019.html))

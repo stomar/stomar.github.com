@@ -1,9 +1,7 @@
 ---
 layout: main-orgeldb
-title: Orgeln in Herrenberg / Ortschaften
+title: Dispositionen nach Ortschaften geordnet
 ---
-
-# Dispositionen nach Ortschaften geordnet #
 
 * [Affstätt (Evang. Kirche)](org_id019.html)
 * [Altingen (Evang. Kirche)](org_id010.html)

@@ -22,7 +22,7 @@
 
 <nav>
 <ul>
-  <li{% if page.url == "/index.html" %} class="selected"{% endif %}><a href="/index.html">Home</a></li>
+  <li{% if page.url == "/" %} class="selected"{% endif %}><a href="/index.html">Home</a></li>
   <li{% if urlstring contains "BASEURL/schrift/" %} class="selected"{% endif %}><a href="/schrift/index.html">Schrift</a></li>
   <li{% if urlstring contains "BASEURL/musik/" %} class="selected"{% endif %}><a href="/musik/index.html">Musik</a></li>
   <li{% if urlstring contains "BASEURL/computer/" %} class="selected"{% endif %}><a href="/computer/index.html">Computer</a></li>

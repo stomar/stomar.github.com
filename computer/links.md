@@ -18,13 +18,11 @@ Links zu einigen nützlichen Tools:
 
 Podcasts und Magazine zu Open Source, Linux, Web, Ruby, usw.:
 
-- [freiesMagazin](http://www.freiesmagazin.de/){:.de} - erscheint monatlich als PDF, EPUB und HTML
-- [Binärgewitter](http://blog.binaergewitter.de/){:.de} - wöchentliche Talksendung als Stream und Podcast
-- [DeimHart](http://deimhart.net/){:.de} - monatlicher Podcast
-- [RadioTux](http://www.radiotux.de/){:.de} - Interviews und monatliche Magazinsendung als Podcast
-- [Ruby Rogues](http://rubyrogues.com/){:.en} - wöchentlicher Podcast über Ruby und verwandte Themen
-- [Teach me to code](http://teachmetocode.com/){:.en} - Podcast zu unterschiedlichen Software-Themen
-- [The Ruby Show](http://rubyshow.com/){:.en} - Podcast insbesondere zu Neuigkeiten rund um Ruby
+- [RadioTux](https://www.radiotux.de/){:.de} - Interviews und monatliche Magazinsendung als Podcast
+- [Logbuch: Netzpolitik](https://logbuch-netzpolitik.de){:.de} - wöchentlicher Podcast über das netzpolitische Geschehen
+- [Binärgewitter](https://blog.binaergewitter.de/){:.de} - wöchentliche Talksendung als Stream und Podcast
+- [Bikeshed](https://www.bikeshed.fm){:.en} - wöchentlicher Podcast über Ruby, Rails, JavaScript und anderes
+- [Ruby Rogues](https://devchat.tv/podcasts/ruby-rogues/){:.en} - wöchentlicher Podcast über Ruby und verwandte Themen
 
 Bücher und Artikel zu Ruby, Softwareentwicklung, usw.:
 

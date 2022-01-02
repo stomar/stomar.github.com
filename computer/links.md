@@ -22,6 +22,7 @@ Podcasts und Magazine zu Open Source, Linux, Web, Ruby, usw.:
 - [Logbuch: Netzpolitik](https://logbuch-netzpolitik.de){:.de} - wöchentlicher Podcast über das netzpolitische Geschehen
 - [Binärgewitter](https://blog.binaergewitter.de/){:.de} - wöchentliche Talksendung als Stream und Podcast
 - [Bikeshed](https://www.bikeshed.fm){:.en} - wöchentlicher Podcast über Ruby, Rails, JavaScript und anderes
+- [Greater Than Code](https://www.greaterthancode.com/){:.en} - wöchentlicher Podcast über "the human side of technology"
 - [Ruby Rogues](https://devchat.tv/podcasts/ruby-rogues/){:.en} - wöchentlicher Podcast über Ruby und verwandte Themen
 
 Bücher und Artikel zu Ruby, Softwareentwicklung, usw.:
